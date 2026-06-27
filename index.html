@@ -1,0 +1,3592 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="سكاي للأسنان - أفضل عيادة أسنان في السالمية، الكويت. تقييم 4.7 ★ من 200 مراجعة. تقويم شفاف، زراعة، تبييض بأيدي أمهر الأطباء." />
+    <meta name="keywords" content="سكاي للأسنان, عيادة أسنان السالمية, أفضل عيادة أسنان الكويت, دكتور محمد السيد, دكتورة سارة ميرزا, تقويم شفاف, زراعة أسنان, تبييض أسنان" />
+    <meta property="og:title" content="سكاي للأسنان - حيث تلتقي السماء بالابتسامة" />
+    <meta property="og:description" content="سكاي للأسنان - تقييم 4.7 ★ من 200 مراجعة. أفضل عيادة أسنان بالكويت." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0B3B60" />
+
+    <title>سكاي للأسنان | حيث تلتقي السماء بالابتسامة</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%230B3B60' stroke='%233498DB' stroke-width='2'/><path d='M35 40 L45 40 L45 30 L55 30 L55 40 L65 40 L65 50 L55 50 L55 60 L45 60 L45 50 L35 50 Z' fill='%233498DB' opacity='0.9'/><circle cx='50' cy='35' r='5' fill='white' opacity='0.9'/><path d='M30 70 Q40 55 50 70 Q60 55 70 70' stroke='%233498DB' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='40' cy='70' r='3' fill='white' opacity='0.7'/><circle cx='60' cy='70' r='3' fill='white' opacity='0.7'/></svg>">
+
+    <style>
+        /* ================================================================
+           ☁️ فلسفة التصميم - "حيث تلتقي السماء بالابتسامة"
+           ================================================================
+           
+           هذا الموقع مستوحى من السماء: الاتساع، الصفاء، الارتفاع، الراحة.
+           كل عنصر مصمم ليعكس جمال السماء ودفء الابتسامة.
+           
+           "سكاي للأسنان - حيث تلتقي السماء بالابتسامة"
+           ================================================================ */
+
+        /* ---------- متغيرات اللوحة السماوية ---------- */
+        :root {
+            /* الألوان الأساسية - مستوحاة من السماء */
+            --sky-deep: #0B3B60;
+            --sky-blue: #3498DB;
+            --sky-blue-light: #5DADE2;
+            --sky-light: #EBF5FB;
+            --cloud-white: #FFFFFF;
+            --cloudy-white: #F0F4F8;
+            --warm-gold: #F1C40F;
+            --warm-gold-light: #F39C12;
+            --text-dark: #2C3E50;
+            --text-gray: #6C7A89;
+            --text-light: #95A5A6;
+
+            /* الخلفيات */
+            --bg-primary: var(--cloud-white);
+            --bg-secondary: var(--sky-light);
+            --bg-sky: var(--sky-deep);
+            --text-primary: var(--text-dark);
+            --text-secondary: var(--text-gray);
+
+            /* التدرجات السماوية */
+            --gradient-sky: linear-gradient(135deg, #0B3B60 0%, #3498DB 50%, #EBF5FB 100%);
+            --gradient-cloud: linear-gradient(120deg, #FFFFFF 0%, #F0F4F8 50%, #EBF5FB 100%);
+            --gradient-sunset: linear-gradient(45deg, #0B3B60 0%, #3498DB 30%, #F1C40F 100%);
+
+            /* الظلال */
+            --shadow-soft: 0 10px 30px rgba(11, 59, 96, 0.06);
+            --shadow-medium: 0 15px 40px rgba(11, 59, 96, 0.1);
+            --shadow-sky: 0 10px 30px rgba(52, 152, 219, 0.15);
+
+            /* الخطوط */
+            --font-arabic: 'Tajawal', sans-serif;
+            --font-body: 'Cairo', sans-serif;
+
+            /* الوضع المظلم */
+            --dm-bg: #0A1628;
+            --dm-card: #1A2A4A;
+            --dm-text: #E8E4DC;
+            --dm-secondary: #A0AAB8;
+        }
+
+        /* ---------- الوضع المظلم ---------- */
+        body.dark-mode {
+            --bg-primary: var(--dm-bg);
+            --bg-secondary: #0F1F3A;
+            --bg-sky: #0A1628;
+            --text-primary: var(--dm-text);
+            --text-secondary: var(--dm-secondary);
+            --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.3);
+            --shadow-medium: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        /* ================================================================
+           ☁️ الأساسيات
+           ================================================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+            transition: background 0.5s ease, color 0.5s ease;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        * {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        img {
+            -webkit-user-drag: none;
+            user-drag: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* ============================================================
+           ☁️ BANNER - نموذج تجريبي
+           ============================================================ */
+        .sky-banner {
+            background: var(--gradient-sky);
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            position: relative;
+            z-index: 1001;
+            border-bottom: 3px solid var(--warm-gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            font-family: var(--font-arabic);
+        }
+
+        .sky-banner .banner-icon {
+            animation: floatSky 3s ease-in-out infinite;
+        }
+
+        @keyframes floatSky {
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-4px) rotate(5deg);
+            }
+        }
+
+        .sky-banner .banner-whatsapp {
+            background: #25D366;
+            color: white;
+            padding: 4px 16px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .sky-banner .banner-whatsapp:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+        }
+
+        .sky-banner .banner-close {
+            background: rgba(255, 255, 255, 0.12);
+            border: none;
+            color: white;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .sky-banner .banner-close:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: rotate(90deg);
+        }
+
+        /* ============================================================
+           ☁️ شعار SVG
+           ============================================================ */
+        .logo-sky {
+            width: 48px;
+            height: 48px;
+            flex-shrink: 0;
+        }
+
+        .logo-sky svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* ============================================================
+           ☁️ NAVBAR
+           ============================================================ */
+        .navbar {
+            padding: 14px 0;
+            background: rgba(11, 59, 96, 0.15);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        body.dark-mode .navbar {
+            background: rgba(10, 22, 40, 0.92);
+        }
+
+        .navbar.scrolled {
+            padding: 10px 0;
+            background: var(--bg-primary);
+            box-shadow: var(--shadow-soft);
+            border-bottom: 1px solid rgba(52, 152, 219, 0.08);
+        }
+
+        body.dark-mode .navbar.scrolled {
+            background: var(--dm-bg);
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: var(--font-arabic);
+            font-size: 1.2rem;
+            font-weight: 900;
+            color: var(--cloud-white);
+            letter-spacing: 1px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        body.dark-mode .navbar .logo {
+            color: var(--dm-text);
+        }
+
+        .navbar.scrolled .logo {
+            color: var(--sky-deep);
+        }
+
+        body.dark-mode .navbar.scrolled .logo {
+            color: var(--dm-text);
+        }
+
+        .navbar .logo .gold-text {
+            color: var(--warm-gold);
+        }
+
+        .navbar .logo .sub-logo {
+            font-size: 0.6rem;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.6);
+            letter-spacing: 2px;
+            display: block;
+            font-family: var(--font-body);
+        }
+
+        .navbar.scrolled .logo .sub-logo {
+            color: var(--text-secondary);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            font-family: var(--font-arabic);
+        }
+
+        .nav-links a {
+            color: rgba(255, 255, 255, 0.85);
+            transition: all 0.4s ease;
+            position: relative;
+            padding-bottom: 4px;
+            text-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        body.dark-mode .nav-links a {
+            color: var(--dm-text);
+        }
+
+        .navbar.scrolled .nav-links a {
+            color: var(--text-primary);
+        }
+
+        body.dark-mode .navbar.scrolled .nav-links a {
+            color: var(--dm-text);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 2px;
+            background: var(--warm-gold);
+            transition: all 0.4s ease;
+            border-radius: 2px;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--warm-gold);
+        }
+
+        .nav-links .btn-nav-book {
+            background: var(--sky-blue);
+            color: white;
+            padding: 8px 22px;
+            border-radius: 25px;
+            font-weight: 700;
+            transition: all 0.4s ease;
+            box-shadow: var(--shadow-sky);
+            text-shadow: none;
+        }
+
+        .navbar.scrolled .nav-links .btn-nav-book {
+            background: var(--sky-blue);
+            color: white;
+        }
+
+        body.dark-mode .nav-links .btn-nav-book {
+            background: var(--warm-gold);
+            color: var(--dm-bg);
+        }
+
+        .nav-links .btn-nav-book::after {
+            display: none;
+        }
+
+        .nav-links .btn-nav-book:hover {
+            transform: scale(1.05) translateY(-2px);
+            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+
+        .hamburger span {
+            width: 26px;
+            height: 2.5px;
+            background: var(--cloud-white);
+            border-radius: 2px;
+            transition: all 0.4s ease;
+        }
+
+        .navbar.scrolled .hamburger span {
+            background: var(--text-primary);
+        }
+
+        body.dark-mode .navbar.scrolled .hamburger span {
+            background: var(--dm-text);
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* ============================================================
+           ☁️ HERO - السماء والابتسامة
+           ============================================================ */
+        .hero-sky {
+            padding-top: 140px;
+            padding-bottom: 80px;
+            min-height: 100vh;
+            position: relative;
+            overflow: hidden;
+            background: var(--gradient-sky);
+            transition: background 0.8s ease;
+        }
+
+        body.dark-mode .hero-sky {
+            background: var(--dm-bg);
+        }
+
+        /* ☁️ الغيوم المتحركة في الخلفية */
+        .clouds-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .cloud {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            filter: blur(2px);
+            animation: floatCloud linear infinite;
+        }
+
+        .cloud::before,
+        .cloud::after {
+            content: '';
+            position: absolute;
+            background: inherit;
+            border-radius: 50%;
+        }
+
+        .cloud-1 {
+            width: 300px;
+            height: 100px;
+            top: 10%;
+            animation-duration: 30s;
+            background: rgba(255, 255, 255, 0.08);
+        }
+        .cloud-1::before {
+            width: 150px;
+            height: 120px;
+            top: -40px;
+            left: 30px;
+        }
+        .cloud-1::after {
+            width: 180px;
+            height: 130px;
+            top: -30px;
+            left: 120px;
+        }
+
+        .cloud-2 {
+            width: 250px;
+            height: 80px;
+            top: 30%;
+            animation-duration: 40s;
+            animation-delay: -5s;
+            background: rgba(255, 255, 255, 0.06);
+        }
+        .cloud-2::before {
+            width: 120px;
+            height: 100px;
+            top: -35px;
+            left: 25px;
+        }
+        .cloud-2::after {
+            width: 150px;
+            height: 110px;
+            top: -25px;
+            left: 100px;
+        }
+
+        .cloud-3 {
+            width: 350px;
+            height: 120px;
+            top: 55%;
+            animation-duration: 50s;
+            animation-delay: -12s;
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .cloud-3::before {
+            width: 180px;
+            height: 140px;
+            top: -45px;
+            left: 35px;
+        }
+        .cloud-3::after {
+            width: 200px;
+            height: 150px;
+            top: -35px;
+            left: 140px;
+        }
+
+        @keyframes floatCloud {
+            0% {
+                transform: translateX(-150px);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateX(calc(100vw + 200px));
+                opacity: 0;
+            }
+        }
+
+        .hero-sky .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content .sky-badge {
+            display: inline-block;
+            font-family: var(--font-arabic);
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--warm-gold);
+            letter-spacing: 3px;
+            border: 1px solid rgba(241, 196, 15, 0.2);
+            padding: 4px 16px;
+            border-radius: 50px;
+            margin-bottom: 16px;
+            background: rgba(241, 196, 15, 0.04);
+        }
+
+        .hero-content h1 {
+            font-family: var(--font-arabic);
+            font-size: 4rem;
+            font-weight: 900;
+            line-height: 1.1;
+            color: var(--cloud-white);
+            margin-bottom: 8px;
+            text-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        body.dark-mode .hero-content h1 {
+            color: var(--dm-text);
+        }
+
+        .hero-content h1 .gold-text {
+            color: var(--warm-gold);
+            text-shadow: 0 2px 20px rgba(241, 196, 15, 0.15);
+        }
+
+        .hero-content .sub-title {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 16px;
+            letter-spacing: 2px;
+            font-family: var(--font-arabic);
+            text-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .hero-content .sub-title strong {
+            color: var(--warm-gold);
+            font-weight: 700;
+        }
+
+        .hero-content p {
+            font-size: 1.05rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 24px;
+            max-width: 90%;
+        }
+
+        /* التقييم */
+        .hero-rating-sky {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            padding: 14px 24px;
+            border-radius: 16px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.4s ease;
+        }
+
+        .hero-rating-sky .rating-art {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .hero-rating-sky .rating-number {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--warm-gold);
+            line-height: 1;
+        }
+
+        .hero-rating-sky .rating-stars {
+            color: var(--warm-gold);
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+
+        .hero-rating-sky .rating-label {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .hero-rating-sky .rating-label strong {
+            color: var(--cloud-white);
+        }
+
+        body.dark-mode .hero-rating-sky .rating-label strong {
+            color: var(--dm-text);
+        }
+
+        .hero-rating-sky .google-badge {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            background: #EA4335;
+            color: white;
+            padding: 3px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .hero-buttons-sky {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        /* أزرار */
+        .btn-sky-primary {
+            display: inline-block;
+            background: var(--sky-blue);
+            color: white;
+            padding: 14px 36px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            box-shadow: var(--shadow-sky);
+            font-family: var(--font-arabic);
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-sky-primary::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 60%);
+            animation: shimmerSky 4s infinite linear;
+        }
+
+        @keyframes shimmerSky {
+            0% {
+                transform: translateX(-100%) translateY(-100%);
+            }
+            100% {
+                transform: translateX(100%) translateY(100%);
+            }
+        }
+
+        .btn-sky-primary:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 8px 30px rgba(52, 152, 219, 0.35);
+        }
+
+        .btn-sky-outline {
+            display: inline-block;
+            background: transparent;
+            color: var(--cloud-white);
+            padding: 12px 32px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            transition: all 0.4s ease;
+            font-family: var(--font-arabic);
+        }
+
+        .btn-sky-outline:hover {
+            background: var(--cloud-white);
+            color: var(--sky-deep);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-soft);
+        }
+
+        body.dark-mode .btn-sky-outline:hover {
+            background: var(--warm-gold);
+            color: var(--dm-bg);
+        }
+
+        /* Hero Image */
+        .hero-image-sky {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-image-sky svg {
+            max-width: 100%;
+            height: auto;
+            border-radius: 24px;
+            filter: drop-shadow(0 20px 60px rgba(0, 0, 0, 0.08));
+        }
+
+        /* كلمات مفتاحية */
+        .sky-keywords {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+
+        .sky-keyword {
+            font-family: var(--font-arabic);
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 4px 14px;
+            border-radius: 50px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            transition: all 0.4s ease;
+            cursor: default;
+        }
+
+        .sky-keyword:hover {
+            border-color: var(--warm-gold);
+            color: var(--warm-gold);
+            transform: translateY(-2px);
+        }
+
+        .sky-keyword .highlight {
+            color: var(--warm-gold);
+        }
+
+        /* حالة العيادة */
+        .clinic-status-sky {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            font-family: var(--font-arabic);
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            color: var(--cloud-white);
+        }
+
+        body.dark-mode .clinic-status-sky {
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .clinic-status-sky .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            animation: pulseSky 1.5s infinite;
+        }
+
+        .clinic-status-sky.open .dot {
+            background: #2ECC71;
+        }
+        .clinic-status-sky.closed .dot {
+            background: #E74C3C;
+        }
+
+        @keyframes pulseSky {
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.3;
+                transform: scale(0.8);
+            }
+        }
+
+        .clinic-status-sky .status-hours {
+            font-size: 0.7rem;
+            font-weight: 400;
+            opacity: 0.6;
+            margin-right: 8px;
+        }
+
+        /* ============================================================
+           ☁️ الأقسام العامة
+           ============================================================ */
+        section {
+            padding: 80px 0;
+            position: relative;
+        }
+
+        .section-sky-title {
+            font-family: var(--font-arabic);
+            font-size: 2.4rem;
+            font-weight: 900;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        body.dark-mode .section-sky-title {
+            color: var(--dm-text);
+        }
+
+        .section-sky-title .gold-text {
+            color: var(--warm-gold);
+        }
+
+        .section-sky-title .sky-text {
+            color: var(--sky-blue);
+        }
+
+        body.dark-mode .section-sky-title .sky-text {
+            color: var(--sky-blue-light);
+        }
+
+        .section-sky-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: var(--gradient-sky);
+            border-radius: 2px;
+            margin-top: 6px;
+        }
+
+        .section-sky-subtitle {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+
+        /* ============================================================
+           ☁️ الخدمات
+           ============================================================ */
+        .sky-services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 30px;
+        }
+
+        .sky-service-card {
+            background: var(--bg-primary);
+            padding: 28px 20px;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            border: 1px solid rgba(52, 152, 219, 0.04);
+            box-shadow: var(--shadow-soft);
+            position: relative;
+            overflow: hidden;
+        }
+
+        body.dark-mode .sky-service-card {
+            background: var(--dm-card);
+        }
+
+        .sky-service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-sky);
+            opacity: 0;
+            transition: all 0.6s ease;
+        }
+
+        .sky-service-card:hover::before {
+            opacity: 1;
+        }
+
+        .sky-service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .sky-service-card .icon-wrap {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 14px;
+            background: rgba(52, 152, 219, 0.04);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: var(--sky-blue);
+            transition: all 0.4s ease;
+        }
+
+        body.dark-mode .sky-service-card .icon-wrap {
+            background: rgba(241, 196, 15, 0.04);
+            color: var(--warm-gold);
+        }
+
+        .sky-service-card:hover .icon-wrap {
+            background: var(--sky-blue);
+            color: white;
+            transform: scale(1.05);
+        }
+
+        body.dark-mode .sky-service-card:hover .icon-wrap {
+            background: var(--warm-gold);
+            color: var(--dm-bg);
+        }
+
+        .sky-service-card h3 {
+            font-family: var(--font-arabic);
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+
+        body.dark-mode .sky-service-card h3 {
+            color: var(--dm-text);
+        }
+
+        .sky-service-card p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .sky-service-card .featured-tag {
+            display: inline-block;
+            font-size: 0.6rem;
+            font-weight: 700;
+            color: white;
+            background: var(--warm-gold);
+            padding: 2px 12px;
+            border-radius: 50px;
+            margin-top: 6px;
+        }
+
+        /* ============================================================
+           ☁️ الأطباء - نجوم سكاي
+           ============================================================ */
+        .sky-doctors-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 30px;
+        }
+
+        .sky-doctor-card {
+            background: var(--bg-primary);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-soft);
+            transition: all 0.6s ease;
+            border: 1px solid rgba(52, 152, 219, 0.04);
+        }
+
+        body.dark-mode .sky-doctor-card {
+            background: var(--dm-card);
+        }
+
+        .sky-doctor-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .sky-doctor-card .doctor-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            background: var(--bg-secondary);
+            border-bottom: 3px solid var(--sky-blue);
+        }
+
+        body.dark-mode .sky-doctor-card .doctor-img {
+            border-bottom-color: var(--warm-gold);
+        }
+
+        .sky-doctor-card .doctor-info {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .sky-doctor-card .doctor-name {
+            font-family: var(--font-arabic);
+            font-size: 1.2rem;
+            font-weight: 900;
+            color: var(--text-primary);
+        }
+
+        body.dark-mode .sky-doctor-card .doctor-name {
+            color: var(--dm-text);
+        }
+
+        .sky-doctor-card .doctor-specialty {
+            color: var(--sky-blue);
+            font-weight: 600;
+            font-size: 0.85rem;
+            margin-bottom: 4px;
+        }
+
+        body.dark-mode .sky-doctor-card .doctor-specialty {
+            color: var(--warm-gold);
+        }
+
+        .sky-doctor-card .doctor-bio {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+
+        .sky-doctor-card .doctor-quote {
+            background: rgba(52, 152, 219, 0.02);
+            padding: 10px 14px;
+            border-radius: 12px;
+            border-right: 3px solid var(--sky-blue);
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+            font-style: italic;
+        }
+
+        body.dark-mode .sky-doctor-card .doctor-quote {
+            background: rgba(241, 196, 15, 0.02);
+            border-right-color: var(--warm-gold);
+        }
+
+        .sky-doctor-card .doctor-quote i {
+            color: var(--warm-gold);
+        }
+
+        .sky-doctor-card .doctor-rating {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .sky-doctor-card .doctor-rating .stars {
+            color: var(--warm-gold);
+            font-size: 0.9rem;
+        }
+
+        /* ============================================================
+           ☁️ التقييمات
+           ============================================================ */
+        .sky-reviews {
+            background: var(--bg-secondary);
+            transition: background 0.6s ease;
+        }
+
+        body.dark-mode .sky-reviews {
+            background: var(--dm-bg);
+        }
+
+        .sky-reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            margin-top: 30px;
+        }
+
+        .sky-review-card {
+            background: var(--bg-primary);
+            padding: 24px;
+            border-radius: 20px;
+            box-shadow: var(--shadow-soft);
+            transition: all 0.6s ease;
+            border-right: 4px solid var(--sky-blue);
+        }
+
+        body.dark-mode .sky-review-card {
+            background: var(--dm-card);
+            border-right-color: var(--warm-gold);
+        }
+
+        .sky-review-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .sky-review-card .reviewer {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+
+        .sky-review-card .reviewer img {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--sky-blue);
+        }
+
+        body.dark-mode .sky-review-card .reviewer img {
+            border-color: var(--warm-gold);
+        }
+
+        .sky-review-card .reviewer .name {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--text-primary);
+        }
+
+        body.dark-mode .sky-review-card .reviewer .name {
+            color: var(--dm-text);
+        }
+
+        .sky-review-card .reviewer .role {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .sky-review-card .stars {
+            color: var(--warm-gold);
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+        }
+
+        .sky-review-card .text {
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        body.dark-mode .sky-review-card .text {
+            color: var(--dm-text);
+        }
+
+        .sky-review-card .text .highlight {
+            color: var(--sky-blue);
+            font-weight: 600;
+        }
+
+        body.dark-mode .sky-review-card .text .highlight {
+            color: var(--warm-gold);
+        }
+
+        .sky-review-card .date {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 6px;
+        }
+
+        /* ============================================================
+           ☁️ FAQ
+           ============================================================ */
+        .sky-faq-item {
+            background: var(--bg-primary);
+            border-radius: 16px;
+            margin-bottom: 12px;
+            box-shadow: var(--shadow-soft);
+            overflow: hidden;
+            transition: all 0.5s ease;
+            border: 1px solid rgba(52, 152, 219, 0.04);
+        }
+
+        body.dark-mode .sky-faq-item {
+            background: var(--dm-card);
+        }
+
+        .sky-faq-item:hover {
+            box-shadow: var(--shadow-medium);
+        }
+
+        .sky-faq-question {
+            padding: 16px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: var(--font-arabic);
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            border: none;
+            width: 100%;
+            text-align: right;
+            transition: all 0.3s ease;
+        }
+
+        body.dark-mode .sky-faq-question {
+            color: var(--dm-text);
+            background: var(--dm-card);
+        }
+
+        .sky-faq-question:hover {
+            background: rgba(52, 152, 219, 0.02);
+        }
+
+        .sky-faq-question i {
+            transition: transform 0.4s ease;
+            color: var(--sky-blue);
+            font-size: 1rem;
+        }
+
+        body.dark-mode .sky-faq-question i {
+            color: var(--warm-gold);
+        }
+
+        .sky-faq-question.active i {
+            transform: rotate(180deg);
+        }
+
+        .sky-faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            padding: 0 20px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .sky-faq-answer.open {
+            max-height: 400px;
+            padding: 0 20px 16px;
+        }
+
+        /* ============================================================
+           ☁️ الاتصال
+           ============================================================ */
+        .sky-contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .sky-contact-form input,
+        .sky-contact-form textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid rgba(52, 152, 219, 0.06);
+            border-radius: 14px;
+            font-size: 0.95rem;
+            font-family: var(--font-body);
+            transition: all 0.4s ease;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        body.dark-mode .sky-contact-form input,
+        body.dark-mode .sky-contact-form textarea {
+            border-color: rgba(241, 196, 15, 0.06);
+            background: var(--dm-card);
+        }
+
+        .sky-contact-form input:focus,
+        .sky-contact-form textarea:focus {
+            border-color: var(--sky-blue);
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.04);
+        }
+
+        body.dark-mode .sky-contact-form input:focus,
+        body.dark-mode .sky-contact-form textarea:focus {
+            border-color: var(--warm-gold);
+            box-shadow: 0 0 0 4px rgba(241, 196, 15, 0.04);
+        }
+
+        .sky-contact-form textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .sky-contact-form .form-group {
+            margin-bottom: 16px;
+        }
+
+        .sky-contact-form label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 4px;
+            color: var(--text-primary);
+            font-family: var(--font-arabic);
+        }
+
+        .sky-contact-info-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 0;
+            border-bottom: 1px solid rgba(52, 152, 219, 0.04);
+        }
+
+        body.dark-mode .sky-contact-info-item {
+            border-bottom-color: rgba(241, 196, 15, 0.04);
+        }
+
+        .sky-contact-info-item i {
+            width: 40px;
+            height: 40px;
+            background: rgba(52, 152, 219, 0.04);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--sky-blue);
+            font-size: 1.1rem;
+        }
+
+        body.dark-mode .sky-contact-info-item i {
+            background: rgba(241, 196, 15, 0.04);
+            color: var(--warm-gold);
+        }
+
+        .sky-contact-info-item .info-text {
+            font-weight: 600;
+            font-family: var(--font-arabic);
+        }
+
+        .sky-contact-info-item .info-text small {
+            font-weight: 400;
+            color: var(--text-secondary);
+            display: block;
+            font-family: var(--font-body);
+        }
+
+        /* ============================================================
+           ☁️ حجز الموعد
+           ============================================================ */
+        .sky-booking-form {
+            background: var(--bg-primary);
+            padding: 36px;
+            border-radius: 24px;
+            box-shadow: var(--shadow-soft);
+            max-width: 700px;
+            margin: 0 auto;
+            border: 1px solid rgba(52, 152, 219, 0.04);
+            transition: all 0.4s ease;
+        }
+
+        body.dark-mode .sky-booking-form {
+            background: var(--dm-card);
+        }
+
+        .sky-booking-form .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .sky-booking-form .form-group {
+            margin-bottom: 16px;
+        }
+
+        .sky-booking-form label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: var(--text-primary);
+            font-family: var(--font-arabic);
+        }
+
+        .sky-booking-form input,
+        .sky-booking-form select,
+        .sky-booking-form textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid rgba(52, 152, 219, 0.06);
+            border-radius: 14px;
+            font-size: 0.95rem;
+            font-family: var(--font-body);
+            transition: all 0.4s ease;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        body.dark-mode .sky-booking-form input,
+        body.dark-mode .sky-booking-form select,
+        body.dark-mode .sky-booking-form textarea {
+            border-color: rgba(241, 196, 15, 0.06);
+            background: var(--dm-card);
+        }
+
+        .sky-booking-form input:focus,
+        .sky-booking-form select:focus,
+        .sky-booking-form textarea:focus {
+            border-color: var(--sky-blue);
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.04);
+        }
+
+        body.dark-mode .sky-booking-form input:focus,
+        body.dark-mode .sky-booking-form select:focus,
+        body.dark-mode .sky-booking-form textarea:focus {
+            border-color: var(--warm-gold);
+            box-shadow: 0 0 0 4px rgba(241, 196, 15, 0.04);
+        }
+
+        .sky-booking-form input.error {
+            border-color: #E74C3C;
+            box-shadow: 0 0 0 4px rgba(231, 76, 60, 0.04);
+        }
+
+        .sky-booking-form .error-message {
+            color: #E74C3C;
+            font-size: 0.8rem;
+            margin-top: 4px;
+            display: none;
+        }
+
+        .sky-booking-form .error-message.show {
+            display: block;
+        }
+
+        .sky-booking-form .validation-success {
+            border-color: #2ECC71 !important;
+        }
+
+        .sky-booking-form .form-hint {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        .sky-booking-form textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+
+        /* ============================================================
+           ☁️ الخريطة
+           ============================================================ */
+        .sky-map-container {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-soft);
+            margin-top: 30px;
+            border: 2px solid rgba(52, 152, 219, 0.04);
+        }
+
+        .sky-map-container iframe {
+            width: 100%;
+            height: 350px;
+            border: none;
+        }
+
+        /* ============================================================
+           ☁️ تأثيرات الحركة
+           ============================================================ */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .animate-on-scroll.slide-left {
+            transform: translateX(-50px);
+        }
+
+        .animate-on-scroll.slide-left.visible {
+            transform: translateX(0);
+        }
+
+        .animate-on-scroll.slide-right {
+            transform: translateX(50px);
+        }
+
+        .animate-on-scroll.slide-right.visible {
+            transform: translateX(0);
+        }
+
+        .animate-on-scroll.scale-up {
+            transform: scale(0.9);
+        }
+
+        .animate-on-scroll.scale-up.visible {
+            transform: scale(1);
+        }
+
+        .delay-1 {
+            transition-delay: 0.1s;
+        }
+        .delay-2 {
+            transition-delay: 0.2s;
+        }
+        .delay-3 {
+            transition-delay: 0.3s;
+        }
+        .delay-4 {
+            transition-delay: 0.4s;
+        }
+        .delay-5 {
+            transition-delay: 0.5s;
+        }
+
+        /* ============================================================
+           ☁️ TOAST
+           ============================================================ */
+        .sky-toast {
+            position: fixed;
+            top: 110px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 14px 28px;
+            border-radius: 16px;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.12);
+            z-index: 9999;
+            font-weight: 700;
+            font-size: 0.95rem;
+            display: none;
+            animation: toastSlideSky 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            max-width: 90%;
+            text-align: center;
+            font-family: var(--font-arabic);
+        }
+
+        .sky-toast.show {
+            display: block;
+        }
+
+        .sky-toast.success {
+            background: var(--sky-blue);
+            color: white;
+        }
+
+        body.dark-mode .sky-toast.success {
+            background: var(--warm-gold);
+            color: var(--dm-bg);
+        }
+
+        .sky-toast.error {
+            background: #E74C3C;
+            color: white;
+        }
+
+        .sky-toast.info {
+            background: var(--text-primary);
+            color: white;
+        }
+
+        @keyframes toastSlideSky {
+            from {
+                transform: translateX(-50%) translateY(-40px) scale(0.9);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(-50%) translateY(0) scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* ============================================================
+           ☁️ FOOTER
+           ============================================================ */
+        .sky-footer {
+            background: var(--sky-deep);
+            color: rgba(255, 255, 255, 0.85);
+            padding: 50px 0 30px;
+            border-top: 4px solid var(--warm-gold);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .sky-footer .clouds-container {
+            opacity: 0.3;
+        }
+
+        .sky-footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .sky-footer h4 {
+            color: var(--white);
+            font-family: var(--font-arabic);
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 14px;
+            position: relative;
+        }
+
+        .sky-footer h4::after {
+            content: '';
+            display: block;
+            width: 30px;
+            height: 3px;
+            background: var(--warm-gold);
+            border-radius: 2px;
+            margin-top: 4px;
+        }
+
+        .sky-footer a {
+            color: rgba(255, 255, 255, 0.5);
+            transition: all 0.4s ease;
+            display: block;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+        }
+
+        .sky-footer a:hover {
+            color: var(--warm-gold);
+            padding-right: 6px;
+        }
+
+        .sky-footer .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.3);
+            position: relative;
+            z-index: 2;
+        }
+
+        .sky-footer .footer-bottom .gold-text {
+            color: var(--warm-gold);
+        }
+
+        /* ============================================================
+           ☁️ Dark Mode Toggle
+           ============================================================ */
+        .dark-toggle-sky {
+            background: none;
+            border: none;
+            font-size: 1.1rem;
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.7);
+            transition: all 0.4s ease;
+            padding: 4px 8px;
+        }
+
+        .navbar.scrolled .dark-toggle-sky {
+            color: var(--text-primary);
+        }
+
+        body.dark-mode .navbar.scrolled .dark-toggle-sky {
+            color: var(--dm-text);
+        }
+
+        .dark-toggle-sky:hover {
+            color: var(--warm-gold);
+            transform: rotate(20deg);
+        }
+
+        /* ============================================================
+           ☁️ صفحات
+           ============================================================ */
+        .page {
+            display: none;
+            animation: pageFadeSky 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        @keyframes pageFadeSky {
+            from {
+                opacity: 0;
+                transform: translateY(20px) scale(0.98);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        /* ============================================================
+           ☁️ أزرار عائمة
+           ============================================================ */
+        .whatsapp-float-sky {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            z-index: 999;
+            background: #25D366;
+            color: white;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            box-shadow: 0 4px 25px rgba(37, 211, 102, 0.25);
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            animation: pulseWhatsappSky 2.5s infinite;
+        }
+
+        .whatsapp-float-sky:hover {
+            transform: scale(1.1) rotate(-5deg);
+            box-shadow: 0 8px 40px rgba(37, 211, 102, 0.4);
+        }
+
+        @keyframes pulseWhatsappSky {
+            0%,
+            100% {
+                box-shadow: 0 4px 25px rgba(37, 211, 102, 0.25);
+            }
+            50% {
+                box-shadow: 0 4px 45px rgba(37, 211, 102, 0.5);
+            }
+        }
+
+        .scroll-top-sky {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 999;
+            background: var(--sky-blue);
+            color: white;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: var(--shadow-sky);
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+        }
+
+        body.dark-mode .scroll-top-sky {
+            background: var(--warm-gold);
+            color: var(--dm-bg);
+        }
+
+        .scroll-top-sky.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .scroll-top-sky:hover {
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: 0 8px 30px rgba(52, 152, 219, 0.3);
+        }
+
+        /* ============================================================
+           ☁️ استجابة
+           ============================================================ */
+        @media (max-width: 992px) {
+            .hero-sky .container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .hero-content p {
+                max-width: 100%;
+            }
+            .hero-buttons-sky {
+                justify-content: center;
+            }
+            .hero-rating-sky {
+                justify-content: center;
+            }
+            .sky-contact-grid {
+                grid-template-columns: 1fr;
+            }
+            .sky-services-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .sky-doctors-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .navbar {
+                top: 50px;
+            }
+            .hero-content h1 {
+                font-size: 3.2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+            .nav-links {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                padding: 16px 0;
+                gap: 12px;
+                align-items: center;
+            }
+            .nav-links.open {
+                display: flex;
+            }
+            .hero-content h1 {
+                font-size: 2.4rem;
+            }
+            .sky-services-grid {
+                grid-template-columns: 1fr;
+            }
+            .sky-doctors-grid {
+                grid-template-columns: 1fr;
+            }
+            .sky-booking-form .form-row {
+                grid-template-columns: 1fr;
+            }
+            .section-sky-title {
+                font-size: 2rem;
+            }
+            .sky-footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .sky-banner {
+                font-size: 0.75rem;
+                padding: 8px 12px;
+            }
+            .navbar {
+                top: 46px;
+            }
+            .hero-sky {
+                padding-top: 120px;
+            }
+            .hero-rating-sky {
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+            }
+            .cloud-1,
+            .cloud-2,
+            .cloud-3 {
+                display: none;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 1.8rem;
+            }
+            .sky-booking-form {
+                padding: 20px 14px;
+            }
+            .sky-footer-grid {
+                grid-template-columns: 1fr;
+            }
+            .whatsapp-float-sky {
+                width: 48px;
+                height: 48px;
+                font-size: 1.4rem;
+                bottom: 16px;
+                left: 16px;
+            }
+            .scroll-top-sky {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+                bottom: 16px;
+                right: 16px;
+            }
+            .sky-banner {
+                font-size: 0.65rem;
+                padding: 6px 8px;
+            }
+            .navbar {
+                top: 42px;
+            }
+            .hero-sky {
+                padding-top: 100px;
+            }
+            .hero-rating-sky .rating-number {
+                font-size: 1.8rem;
+            }
+            .sky-keywords {
+                justify-content: center;
+            }
+            .cloud-1,
+            .cloud-2,
+            .cloud-3 {
+                display: none;
+            }
+        }
+
+        /* ============================================================
+           ☁️ حماية
+           ============================================================ */
+        .no-select {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ============================================================
+    ☁️ BANNER - نموذج تجريبي
+    ============================================================ -->
+    <div class="sky-banner" id="skyBanner">
+        <span class="banner-icon">☁️</span>
+        <span>
+            <strong>⚠️ هذا الموقع هو نموذج تجريبي</strong> — للتواصل لتطوير موقعك الخاص
+        </span>
+        <a href="https://wa.me/966507652943" target="_blank" class="banner-whatsapp">
+            <i class="fab fa-whatsapp"></i> تواصل معي الآن
+        </a>
+        <button class="banner-close" onclick="closeSkyBanner()" aria-label="إغلاق">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <!-- ============================================================
+    ☁️ TOAST
+    ============================================================ -->
+    <div id="skyToast" class="sky-toast">
+        <i class="fas fa-check-circle" style="margin-left: 10px;"></i>
+        <span id="toastTextSky">تم حجز موعدك في سكاي للأسنان!</span>
+    </div>
+
+    <!-- ============================================================
+    ☁️ NAVBAR
+    ============================================================ -->
+    <nav class="navbar" id="navbarSky" dir="ltr">
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-sky" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0B3B60"/>
+                            <stop offset="100%" style="stop-color:#3498DB"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="45" fill="url(#skyGrad)" stroke="#F1C40F" stroke-width="2"/>
+                    <!-- سحابة -->
+                    <path d="M22 45 C22 38 28 32 36 32 C38 26 44 22 52 22 C60 22 66 26 68 32 C76 32 82 38 82 45 C82 52 76 58 68 58 L36 58 C28 58 22 52 22 45 Z"
+                    fill="white" opacity="0.85"/>
+                    <!-- سن -->
+                    <path d="M44 58 L50 58 L50 68 L56 68 L56 58 L62 58 L62 70 L56 70 L56 80 L50 80 L50 70 L44 70 Z"
+                    fill="#F1C40F" opacity="0.9"/>
+                    <text x="50" y="92" text-anchor="middle" font-size="7" font-weight="900" fill="#F1C40F" font-family="Tajawal">سكاي</text>
+                </svg>
+                <div>
+                    <span class="gold-text">سكاي</span> <span style="color:white;">للأسنان</span>
+                    <span class="sub-logo">☁️ حيث تلتقي السماء بالابتسامة</span>
+                </div>
+            </div>
+
+            <button class="hamburger" id="hamburgerSky" aria-label="القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinksSky">
+                <li><a href="#" class="active" data-page="home">الرئيسية</a></li>
+                <li><a href="#" data-page="about">عن العيادة</a></li>
+                <li><a href="#" data-page="doctors">الأطباء</a></li>
+                <li><a href="#" data-page="services">الخدمات</a></li>
+                <li><a href="#" data-page="reviews">التقييمات</a></li>
+                <li><a href="#" data-page="faq">أسئلة</a></li>
+                <li><a href="#" data-page="contact">اتصل بنا</a></li>
+                <li>
+                    <button class="dark-toggle-sky" id="darkToggleSky" aria-label="الوضع المظلم">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+                <li><a href="#" data-page="booking" class="btn-nav-book">حجز موعد</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+    ☁️ PAGE: HOME - بوابة السماء
+    ============================================================ -->
+    <section class="page active" id="page-home">
+        <div class="hero-sky">
+            <!-- ☁️ الغيوم المتحركة -->
+            <div class="clouds-container">
+                <div class="cloud cloud-1"></div>
+                <div class="cloud cloud-2"></div>
+                <div class="cloud cloud-3"></div>
+            </div>
+
+            <div class="container">
+                <div class="hero-content">
+                    <div class="sky-badge animate-on-scroll slide-right">
+                        ☁️ Sky Dental · حيث تلتقي السماء بالابتسامة
+                    </div>
+                    <h1 class="animate-on-scroll slide-right">
+                        حيث تلتقي<br />
+                        <span class="gold-text">السماء</span><br />
+                        بالابتسامة
+                    </h1>
+
+                    <p class="sub-title animate-on-scroll slide-right delay-1">
+                        <strong>سكاي للأسنان</strong> — ابتسامتك في السماء
+                    </p>
+
+                    <p class="animate-on-scroll slide-right delay-1">
+                        في <strong>سكاي للأسنان</strong>، نقدم رعاية أسنان راقية
+                        في بيئة مريحة كالغيوم. مع تقييم <strong>4.7 ★</strong> من أكثر من 200 مريض.
+                    </p>
+
+                    <div class="hero-rating-sky animate-on-scroll slide-right delay-2">
+                        <div class="rating-art">
+                            <span class="rating-number">4.7</span>
+                            <div>
+                                <div class="rating-stars">★★★★★</div>
+                                <div class="rating-label">
+                                    <strong>200</strong> مراجعة على Google
+                                </div>
+                            </div>
+                        </div>
+                        <div class="google-badge">
+                            <i class="fab fa-google"></i> Google Maps
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons-sky animate-on-scroll slide-right delay-3">
+                        <a href="#" class="btn-sky-primary" data-page="booking">
+                            <i class="fas fa-calendar-check"></i> احجز موعدك
+                        </a>
+                        <a href="#" class="btn-sky-outline" data-page="services">
+                            اكتشف خدماتنا
+                        </a>
+                    </div>
+
+                    <!-- كلمات مفتاحية -->
+                    <div class="sky-keywords animate-on-scroll slide-right delay-5">
+                        <span class="sky-keyword">#<span class="highlight">تجربة</span> (13)</span>
+                        <span class="sky-keyword">#<span class="highlight">دكتور</span> (7)</span>
+                        <span class="sky-keyword">#<span class="highlight">الشكر</span> (3)</span>
+                        <span class="sky-keyword">#<span class="highlight">تقويم_شفاف</span> (3)</span>
+                    </div>
+
+                    <!-- حالة العيادة -->
+                    <div style="margin-top:16px;" class="animate-on-scroll slide-right delay-4">
+                        <span class="clinic-status-sky open" id="statusBadgeSky">
+                            <span class="dot"></span>
+                            <span id="statusTextSky">مفتوح الآن 🟢</span>
+                            <span class="status-hours">· يغلق 10:00 مساءً</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="hero-image-sky animate-on-scroll slide-left delay-2">
+                    <svg width="500" height="480" viewBox="0 0 500 480" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="bgSky" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0B3B60;stop-opacity:0.04" />
+                                <stop offset="100%" style="stop-color:#3498DB;stop-opacity:0.06" />
+                            </linearGradient>
+                            <linearGradient id="toothSky" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#FFFFFF" />
+                                <stop offset="100%" style="stop-color:#F0F4F8" />
+                            </linearGradient>
+                        </defs>
+
+                        <rect width="500" height="480" rx="24" fill="url(#bgSky)" />
+
+                        <!-- غيمة زخرفية -->
+                        <g transform="translate(250, 40)">
+                            <path d="M-60 10 C-60 -5 -48 -15 -35 -15 C-30 -25 -15 -32 0 -32 C15 -32 30 -25 35 -15 C48 -15 60 -5 60 10 C60 25 48 35 35 35 L-35 35 C-48 35 -60 25 -60 10 Z"
+                            fill="white" opacity="0.04"/>
+                            <text x="0" y="50" text-anchor="middle" font-size="16" font-weight="900" fill="#0B3B60" opacity="0.08" font-family="Tajawal">✦ سكاي للأسنان ✦</text>
+                        </g>
+
+                        <!-- أسنان فنية مع سحابة -->
+                        <g transform="translate(250, 210)">
+                            <!-- سحابة خلف الأسنان -->
+                            <path d="M-90 -20 C-90 -40 -70 -55 -50 -55 C-40 -70 -20 -80 0 -80 C20 -80 40 -70 50 -55 C70 -55 90 -40 90 -20 C90 0 70 15 50 15 L-50 15 C-70 15 -90 0 -90 -20 Z"
+                            fill="white" opacity="0.06"/>
+
+                            <path d="M-55 -70 L-40 -120 L40 -120 L55 -70 L48 -20 L35 40 L20 65 L8 80 L-8 80 L-20 65 L-35 40 L-48 -20 Z"
+                            fill="url(#toothSky)" stroke="#3498DB" stroke-width="2"/>
+                            <path d="M-20 -70 L-14 -95 L14 -95 L20 -70 L17 -20 L8 30 L4 55 L0 65 L-4 55 L-8 30 L-17 -20 Z"
+                            fill="white" opacity="0.8"/>
+
+                            <!-- أسنان جانبية -->
+                            <path d="M-115 -50 L-100 -85 L-80 -95 L-65 -70 L-58 -20 L-50 30 L-40 55 L-32 65 L-48 65 L-65 50 L-82 25 L-95 -10 Z"
+                            fill="url(#toothSky)" stroke="#3498DB" stroke-width="1.5" opacity="0.6"/>
+                            <path d="M115 -50 L100 -85 L80 -95 L65 -70 L58 -20 L50 30 L40 55 L32 65 L48 65 L65 50 L82 25 L95 -10 Z"
+                            fill="url(#toothSky)" stroke="#3498DB" stroke-width="1.5" opacity="0.6"/>
+
+                            <!-- نجمتين سكاي -->
+                            <text x="0" y="105" text-anchor="middle" font-size="10" font-weight="700" fill="#F1C40F" opacity="0.3" font-family="Tajawal">✦ Sky Dental ✦</text>
+                        </g>
+
+                        <!-- تقييم 4.7 -->
+                        <g transform="translate(430, 50)">
+                            <circle cx="0" cy="0" r="28" fill="#0B3B60" opacity="0.85"/>
+                            <text x="0" y="3" text-anchor="middle" font-size="16" font-weight="900" fill="#F1C40F">4.7</text>
+                            <text x="0" y="20" text-anchor="middle" font-size="6" fill="white" opacity="0.6">★★★★★</text>
+                        </g>
+
+                        <!-- 200 مراجعة -->
+                        <g transform="translate(440, 420)">
+                            <rect x="-50" y="-15" width="100" height="30" rx="15" fill="#0B3B60" opacity="0.7"/>
+                            <text x="0" y="4" text-anchor="middle" font-size="9" font-weight="700" fill="#F1C40F">200 مراجعة</text>
+                        </g>
+
+                        <!-- أيقونة سكاي -->
+                        <g transform="translate(60, 80)">
+                            <circle cx="0" cy="0" r="24" fill="#F1C40F" opacity="0.08"/>
+                            <text x="0" y="5" text-anchor="middle" font-size="9" font-weight="900" fill="#F1C40F" font-family="Tajawal">سكاي</text>
+                        </g>
+
+                        <!-- غيمة صغيرة -->
+                        <g transform="translate(100, 370)">
+                            <path d="M-30 0 C-30 -12 -20 -20 -10 -20 C-5 -28 5 -32 15 -32 C25 -32 35 -28 40 -20 C50 -20 60 -12 60 0 C60 12 50 20 40 20 L-20 20 C-30 20 -30 12 -30 0 Z"
+                            fill="white" opacity="0.03"/>
+                        </g>
+
+                        <!-- زخارف -->
+                        <path d="M50 400 Q150 370 250 400 Q350 430 450 400"
+                        stroke="#3498DB" stroke-width="1.5" fill="none" opacity="0.06" stroke-dasharray="6,6"/>
+                        <path d="M40 430 Q140 400 250 430 Q360 460 460 430"
+                        stroke="#F1C40F" stroke-width="1.5" fill="none" opacity="0.04" stroke-dasharray="6,6"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- الخدمات السريعة -->
+        <div class="container" style="padding:40px 0 60px;">
+            <h2 class="section-sky-title text-center" style="text-align:center;">
+                خدماتنا <span class="gold-text">في السماء</span>
+            </h2>
+            <p class="section-sky-subtitle text-center" style="text-align:center;">
+                نقدم لك أفضل خدمات طب الأسنان بكل احترافية وراحة
+            </p>
+
+            <div class="sky-services-grid">
+                <div class="sky-service-card animate-on-scroll scale-up delay-1">
+                    <div class="icon-wrap"><i class="fas fa-braces"></i></div>
+                    <h3>تقويم شفاف</h3>
+                    <p>الخدمة الأكثر طلباً بكل دقة</p>
+                    <span class="featured-tag">⭐ الأكثر طلباً</span>
+                </div>
+                <div class="sky-service-card animate-on-scroll scale-up delay-2">
+                    <div class="icon-wrap"><i class="fas fa-tooth"></i></div>
+                    <h3>زراعة الأسنان</h3>
+                    <p>غرسات دقيقة بأحدث التقنيات</p>
+                </div>
+                <div class="sky-service-card animate-on-scroll scale-up delay-3">
+                    <div class="icon-wrap"><i class="fas fa-star"></i></div>
+                    <h3>تبييض الأسنان</h3>
+                    <p>ابتسامة مشرقة بنتائج مذهلة</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-20 animate-on-scroll fade-up delay-4">
+                <a href="#" class="btn-sky-primary" data-page="services">
+                    جميع الخدمات <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- المراجعات -->
+        <div class="sky-reviews">
+            <div class="container" style="padding:60px 0;">
+                <h2 class="section-sky-title animate-on-scroll slide-right">
+                    آراء <span class="gold-text">مرضانا</span> في السماء
+                </h2>
+                <p class="section-sky-subtitle animate-on-scroll slide-right delay-1">
+                    ما يقوله عملاؤنا عن تجربتهم في سكاي للأسنان
+                </p>
+
+                <div class="sky-reviews-grid" id="reviewsGridSky"></div>
+
+                <div class="text-center mt-20 animate-on-scroll fade-up delay-3">
+                    <a href="#" class="btn-sky-outline" data-page="reviews">
+                        جميع التقييمات <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    ☁️ PAGE: ABOUT - قصة سكاي
+    ============================================================ -->
+    <section class="page" id="page-about">
+        <div class="container" style="padding-top:30px;">
+            <h2 class="section-sky-title animate-on-scroll slide-right">
+                عن <span class="gold-text">سكاي للأسنان</span>
+            </h2>
+            <p class="section-sky-subtitle animate-on-scroll slide-right delay-1">
+                حيث تلتقي السماء بالابتسامة
+            </p>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:50px; align-items:center;">
+                <div class="animate-on-scroll slide-left">
+                    <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=400&fit=crop&crop=center&auto=format&q=80"
+                    alt="سكاي للأسنان"
+                    style="width:100%; border-radius:20px; box-shadow:var(--shadow-medium); border:2px solid rgba(52,152,219,0.04);"
+                    loading="lazy" />
+                </div>
+                <div class="animate-on-scroll slide-right">
+                    <h3 style="font-size:1.5rem; font-family:var(--font-arabic); color:var(--text-primary); margin-bottom:12px;">
+                        <span class="gold-text">سماء</span> من التميز و<span class="sky-text">احترافية</span> لا حدود لها
+                    </h3>
+                    <p style="color:var(--text-secondary); line-height:1.9; font-size:0.95rem;">
+                        تأسست <strong>سكاي للأسنان</strong> في قلب السالمية لتكون وجهة المرضى
+                        الباحثين عن التميز. نؤمن بأن كل ابتسامة تستحق أن تكون في السماء،
+                        ولهذا نوفر أفضل الأطباء وأحدث التقنيات في بيئة مريحة كالغيوم.
+                    </p>
+                    <p style="color:var(--text-secondary); line-height:1.9; margin-top:10px; font-size:0.95rem;">
+                        يقع مركزنا في <strong>شارع سالم المبارك، السالمية</strong>،
+                        حيث نستقبل ضيوفنا بكل حب واهتمام، ونقدم لهم تجربة لا تُنسى.
+                    </p>
+
+                    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:24px;">
+                        <div class="stat-item" style="text-align:center; padding:14px; background:var(--bg-primary); border-radius:14px; box-shadow:var(--shadow-soft); border:1px solid rgba(52,152,219,0.04);">
+                            <span class="number" style="font-size:1.6rem; font-weight:900; color:var(--warm-gold); display:block;" data-count="4.7">0</span>
+                            <span style="font-size:0.75rem; color:var(--text-secondary); font-weight:600;">★ تقييم</span>
+                        </div>
+                        <div class="stat-item" style="text-align:center; padding:14px; background:var(--bg-primary); border-radius:14px; box-shadow:var(--shadow-soft); border:1px solid rgba(52,152,219,0.04);">
+                            <span class="number" style="font-size:1.6rem; font-weight:900; color:var(--warm-gold); display:block;" data-count="200">0</span>
+                            <span style="font-size:0.75rem; color:var(--text-secondary); font-weight:600;">مراجعة</span>
+                        </div>
+                        <div class="stat-item" style="text-align:center; padding:14px; background:var(--bg-primary); border-radius:14px; box-shadow:var(--shadow-soft); border:1px solid rgba(52,152,219,0.04);">
+                            <span class="number" style="font-size:1.6rem; font-weight:900; color:var(--warm-gold); display:block;" data-count="10">0</span>
+                            <span style="font-size:0.75rem; color:var(--text-secondary); font-weight:600;">سنوات خبرة</span>
+                        </div>
+                        <div class="stat-item" style="text-align:center; padding:14px; background:var(--bg-primary); border-radius:14px; box-shadow:var(--shadow-soft); border:1px solid rgba(52,152,219,0.04);">
+                            <span class="number" style="font-size:1.6rem; font-weight:900; color:var(--warm-gold); display:block;" data-count="1000">0</span>
+                            <span style="font-size:0.75rem; color:var(--text-secondary); font-weight:600;">مرضى سعداء</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الموقع -->
+            <div style="margin-top:50px;" class="animate-on-scroll fade-up">
+                <h3 style="font-size:1.4rem; font-family:var(--font-arabic); color:var(--text-primary);">
+                    <i class="fas fa-map-pin" style="color:var(--sky-blue);"></i> موقعنا في السماء
+                </h3>
+                <p style="color:var(--text-secondary); font-size:0.95rem;">
+                    <strong>شارع سالم المبارك، السالمية، الكويت</strong>
+                </p>
+                <div class="sky-map-container">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.806418823724!2d47.9814!3d29.3759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDIyJzMzLjIiTiA0N8KwNTgnNTMuMSJF!5e0!3m2!1sar!2skw!4v1700000000000"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+☁️ PAGE: DOCTORS - نجوم سكاي
+============================================================ -->
+<section class="page" id="page-doctors">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-sky-title animate-on-scroll slide-right">
+            نجوم <span class="gold-text">سكاي</span>
+        </h2>
+        <p class="section-sky-subtitle animate-on-scroll slide-right delay-1">
+            نخبة من أمهر الأطباء في خدمتكم
+        </p>
+
+        <div class="sky-doctors-grid" id="doctorsGridSky"></div>
+    </div>
+</section>
+
+<!-- ============================================================
+☁️ PAGE: SERVICES
+============================================================ -->
+<section class="page" id="page-services">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-sky-title animate-on-scroll slide-right">
+            خدماتنا <span class="gold-text">السماوية</span>
+        </h2>
+        <p class="section-sky-subtitle animate-on-scroll slide-right delay-1">
+            كل ما تحتاجه لابتسامة مثالية في مكان واحد
+        </p>
+
+        <div class="services-grid" id="servicesGridSky" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:30px;"></div>
+    </div>
+</section>
+
+<!-- ============================================================
+☁️ PAGE: REVIEWS - مرآة سكاي
+============================================================ -->
+<section class="page" id="page-reviews">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-sky-title animate-on-scroll slide-right">
+            تقييمات <span class="gold-text">مرضانا</span>
+        </h2>
+        <p class="section-sky-subtitle animate-on-scroll slide-right delay-1">
+            4.7 ★ من 200 مراجعة حقيقية على Google Maps
+        </p>
+
+        <div style="display:flex; align-items:center; gap:24px; flex-wrap:wrap; margin-bottom:30px; background:var(--bg-primary); padding:24px; border-radius:20px; box-shadow:var(--shadow-soft); border:1px solid rgba(52,152,219,0.04);" class="animate-on-scroll fade-up">
+            <div style="text-align:center;">
+                <div style="font-size:3rem; font-weight:900; color:var(--warm-gold); font-family:var(--font-arabic);">4.7</div>
+                <div style="color:var(--warm-gold); font-size:1.4rem;">★★★★★</div>
+                <div style="color:var(--text-secondary); font-size:0.85rem;">من أصل 5</div>
+                <div style="color:var(--text-secondary); font-size:0.85rem; font-weight:700;">200 مراجعة</div>
+            </div>
+            <div style="flex:1;">
+                <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
+                    <span style="width:50px; font-size:0.75rem;">5 ★</span>
+                    <div style="flex:1; height:6px; background:var(--bg-secondary); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:80%; background:var(--warm-gold); border-radius:10px;"></div>
+                    </div>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">160</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
+                    <span style="width:50px; font-size:0.75rem;">4 ★</span>
+                    <div style="flex:1; height:6px; background:var(--bg-secondary); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:14%; background:var(--warm-gold); border-radius:10px;"></div>
+                    </div>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">28</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
+                    <span style="width:50px; font-size:0.75rem;">3 ★</span>
+                    <div style="flex:1; height:6px; background:var(--bg-secondary); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:4%; background:var(--warm-gold); border-radius:10px;"></div>
+                    </div>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">8</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:6px;">
+                    <span style="width:50px; font-size:0.75rem;">2 ★</span>
+                    <div style="flex:1; height:6px; background:var(--bg-secondary); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:1.5%; background:var(--warm-gold); border-radius:10px;"></div>
+                    </div>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">3</span>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.google.com/maps/search/?api=1&query=سكاي+للأسنان+الكويت" target="_blank" class="btn-sky-primary" style="padding:10px 20px; font-size:0.8rem;">
+                    <i class="fab fa-google"></i> راجعنا على Google
+                </a>
+            </div>
+        </div>
+
+        <!-- كلمات مفتاحية -->
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:30px;">
+            <span style="font-weight:700; color:var(--sky-blue); font-family:var(--font-arabic);">الكلمات المفتاحية:</span>
+            <span class="sky-keyword">#<span class="highlight">تجربة</span> (13)</span>
+            <span class="sky-keyword">#<span class="highlight">دكتور</span> (7)</span>
+            <span class="sky-keyword">#<span class="highlight">الشكر</span> (3)</span>
+            <span class="sky-keyword">#<span class="highlight">تقويم_شفاف</span> (3)</span>
+        </div>
+
+        <div class="sky-reviews-grid" id="allReviewsGridSky"></div>
+
+        <!-- إضافة مراجعة -->
+        <div style="margin-top:40px; background:var(--bg-primary); padding:24px; border-radius:20px; box-shadow:var(--shadow-soft); border:1px solid rgba(52,152,219,0.04);" class="animate-on-scroll fade-up">
+            <h3 style="color:var(--text-primary); margin-bottom:14px; font-family:var(--font-arabic); font-size:1.1rem;">
+                <i class="fas fa-pen" style="color:var(--sky-blue);"></i> أضف تقييمك
+            </h3>
+            <form id="reviewFormSky">
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+                    <div>
+                        <label>الاسم</label>
+                        <input type="text" id="reviewNameSky" placeholder="اسمك" required style="width:100%; padding:10px 14px; border:2px solid rgba(52,152,219,0.06); border-radius:12px; font-family:var(--font-body); background:var(--bg-primary); color:var(--text-primary); font-size:0.9rem;" />
+                    </div>
+                    <div>
+                        <label>البريد</label>
+                        <input type="email" id="reviewEmailSky" placeholder="بريدك" required style="width:100%; padding:10px 14px; border:2px solid rgba(52,152,219,0.06); border-radius:12px; font-family:var(--font-body); background:var(--bg-primary); color:var(--text-primary); font-size:0.9rem;" />
+                    </div>
+                </div>
+                <div style="margin-top:12px;">
+                    <label>تقييمك</label>
+                    <div style="display:flex; gap:6px; font-size:1.8rem; cursor:pointer; direction:ltr;" id="starRatingSky">
+                        <span data-value="1">☆</span>
+                        <span data-value="2">☆</span>
+                        <span data-value="3">☆</span>
+                        <span data-value="4">☆</span>
+                        <span data-value="5">☆</span>
+                    </div>
+                    <input type="hidden" id="reviewStarsSky" value="5" />
+                </div>
+                <div style="margin-top:12px;">
+                    <label>مراجعتك</label>
+                    <textarea id="reviewTextSky" rows="3" placeholder="شاركنا تجربتك..." required style="width:100%; padding:10px 14px; border:2px solid rgba(52,152,219,0.06); border-radius:12px; font-family:var(--font-body); background:var(--bg-primary); color:var(--text-primary); font-size:0.9rem;"></textarea>
+                </div>
+                <button type="submit" class="btn-sky-primary" style="margin-top:12px; width:100%; padding:12px; font-size:0.95rem;">
+                    <i class="fas fa-paper-plane"></i> أضف تقييمك
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+☁️ PAGE: FAQ
+============================================================ -->
+<section class="page" id="page-faq">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-sky-title animate-on-scroll slide-right">
+            أسئلة <span class="gold-text">سماوية</span>
+        </h2>
+        <p class="section-sky-subtitle animate-on-scroll slide-right delay-1">
+            إجابات على أهم أسئلتكم
+        </p>
+
+        <div style="max-width:800px; margin:0 auto;">
+            <div class="sky-faq-item animate-on-scroll fade-up delay-1">
+                <button class="sky-faq-question" onclick="toggleFaqSky(this)">
+                    <span>ما هي خدمات سكاي للأسنان؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="sky-faq-answer">
+                    <p>نقدم في سكاي للأسنان مجموعة متكاملة من خدمات طب الأسنان: تقويم شفاف (الأكثر طلباً)، تقويم تقليدي، زراعة الأسنان، تبييض الأسنان، حشوات تجميلية، علاج الجذور (أعصاب)، جراحة الفم، وتنظيف الأسنان.</p>
+                </div>
+            </div>
+
+            <div class="sky-faq-item animate-on-scroll fade-up delay-2">
+                <button class="sky-faq-question" onclick="toggleFaqSky(this)">
+                    <span>كيف يمكنني حجز موعد؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="sky-faq-answer">
+                    <p>يمكنك حجز موعد بسهولة عبر موقعنا الإلكتروني من خلال نموذج الحجز، أو الاتصال بنا على رقم الهاتف <strong>+965 2208 5666</strong>، أو عبر واتساب على نفس الرقم. نرحب بكم في أي وقت.</p>
+                </div>
+            </div>
+
+            <div class="sky-faq-item animate-on-scroll fade-up delay-3">
+                <button class="sky-faq-question" onclick="toggleFaqSky(this)">
+                    <span>ما هي ساعات العمل؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="sky-faq-answer">
+                    <p>نعمل يومياً من الساعة <strong>8:30 صباحاً</strong> حتى <strong>10:00 مساءً</strong>. نستقبل مرضانا بكل حب واهتمام في جميع الأوقات.</p>
+                </div>
+            </div>
+
+            <div class="sky-faq-item animate-on-scroll fade-up delay-4">
+                <button class="sky-faq-question" onclick="toggleFaqSky(this)">
+                    <span>أين يقع موقع سكاي للأسنان؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="sky-faq-answer">
+                    <p>يقع مركز سكاي للأسنان في <strong>شارع سالم المبارك، السالمية، الكويت</strong>. يتميز الموقع بسهولة الوصول ومواقف سيارات واسعة.</p>
+                </div>
+            </div>
+
+            <div class="sky-faq-item animate-on-scroll fade-up delay-5">
+                <button class="sky-faq-question" onclick="toggleFaqSky(this)">
+                    <span>من هم أفضل الأطباء في سكاي للأسنان؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="sky-faq-answer">
+                    <p>نفتخر بوجود نخبة من أمهر الأطباء، من بينهم <strong>د. محمد السيد</strong> أفضل دكتور أعصاب يشرح كل شيء ويأخذ وقته، و<strong>د. سارة ميرزا</strong> التي تسعد المرضى بشرح حالتهم، بالإضافة إلى أطباء اختصاصيين آخرين.</p>
+                </div>
+            </div>
+
+            <div class="sky-faq-item animate-on-scroll fade-up delay-6">
+                <button class="sky-faq-question" onclick="toggleFaqSky(this)">
+                    <span>هل سكاي للأسنان هي أفضل عيادة في الكويت؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="sky-faq-answer">
+                    <p>حسب تجربة مرضانا، تعتبر <strong>سكاي للأسنان</strong> أفضل عيادة أسنان في الكويت. هذا ما أكده العديد من مرضانا في مراجعاتهم على Google Maps، حيث وصفوها بأنها "أفضل عيادة أسنان بالكويت عن تجربة شخصية".</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+☁️ PAGE: CONTACT - تواصل مع سكاي
+============================================================ -->
+<section class="page" id="page-contact">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-sky-title animate-on-scroll slide-right">
+            اتصل <span class="gold-text">بنا</span>
+        </h2>
+        <p class="section-sky-subtitle animate-on-scroll slide-right delay-1">
+            نحن هنا لخدمتك، تواصل معنا بكل سهولة
+        </p>
+
+        <div class="sky-contact-grid">
+            <div class="animate-on-scroll slide-right">
+                <form class="sky-contact-form" id="contactFormSky">
+                    <div class="form-group">
+                        <label>الاسم</label>
+                        <input type="text" placeholder="اسمك" required />
+                    </div>
+                    <div class="form-group">
+                        <label>رقم الهاتف</label>
+                        <input type="tel" placeholder="+965 2208 5666" required />
+                    </div>
+                    <div class="form-group">
+                        <label>البريد الإلكتروني</label>
+                        <input type="email" placeholder="بريدك" required />
+                    </div>
+                    <div class="form-group">
+                        <label>الموضوع</label>
+                        <input type="text" placeholder="موضوع الرسالة" />
+                    </div>
+                    <div class="form-group">
+                        <label>الرسالة</label>
+                        <textarea placeholder="اكتب رسالتك..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-sky-primary" style="width:100%; padding:12px; font-size:0.95rem;">
+                        <i class="fas fa-paper-plane"></i> أرسل الرسالة
+                    </button>
+                </form>
+            </div>
+
+            <div class="animate-on-scroll slide-left">
+                <div style="background:var(--bg-secondary); padding:24px; border-radius:20px; transition:background 0.4s ease; border:1px solid rgba(52,152,219,0.04);">
+                    <h3 style="color:var(--text-primary); margin-bottom:16px; font-family:var(--font-arabic); font-size:1.1rem;">
+                        <i class="fas fa-phone" style="color:var(--sky-blue);"></i> معلومات الاتصال
+                    </h3>
+
+                    <div class="sky-contact-info-item">
+                        <i class="fas fa-map-pin"></i>
+                        <div class="info-text">
+                            العنوان
+                            <small>شارع سالم المبارك، السالمية، الكويت</small>
+                        </div>
+                    </div>
+
+                    <div class="sky-contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-text">
+                            الهاتف
+                            <small dir="ltr">+965 2208 5666</small>
+                        </div>
+                    </div>
+
+                    <div class="sky-contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-text">
+                            البريد
+                            <small>info@skydental.com</small>
+                        </div>
+                    </div>
+
+                    <div class="sky-contact-info-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="info-text">
+                            ساعات العمل
+                            <small>يومياً: 8:30ص - 10م</small>
+                            <small style="color:var(--warm-gold);">🟢 مفتوح الآن</small>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
+                        <div id="clinicStatusContactSky">
+                            <span class="clinic-status-sky open">
+                                <span class="dot"></span>
+                                🟢 مفتوح الآن
+                                <span class="status-hours">· يغلق 10:00 مساءً</span>
+                            </span>
+                        </div>
+                        <a href="tel:+96522085666" class="btn-sky-primary" style="padding:8px 16px; font-size:0.8rem;">
+                            <i class="fas fa-phone"></i> اتصل
+                        </a>
+                        <a href="https://wa.me/96522085666" target="_blank" class="btn-sky-outline" style="padding:8px 16px; font-size:0.8rem;">
+                            <i class="fab fa-whatsapp"></i> واتساب
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sky-map-container animate-on-scroll fade-up">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.806418823724!2d47.9814!3d29.3759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDIyJzMzLjIiTiA0N8KwNTgnNTMuMSJF!5e0!3m2!1sar!2skw!4v1700000000000"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================
+☁️ PAGE: BOOKING - حجز في السماء
+============================================================ -->
+<section class="page" id="page-booking">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-sky-title text-center" style="text-align:center;">
+            احجز <span class="gold-text">موعدك</span> في السماء
+        </h2>
+        <p class="section-sky-subtitle text-center" style="text-align:center;">
+            3 خطوات فقط لابتسامة مثالية
+        </p>
+
+        <div class="sky-booking-form">
+            <form id="bookingFormSky" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bookNameSky">الاسم <span style="color:#E74C3C;">*</span></label>
+                        <input type="text" id="bookNameSky" placeholder="اسمك الثلاثي" required />
+                        <div class="error-message" id="bookNameErrorSky">الرجاء إدخال الاسم</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookPhoneSky">الهاتف <span style="color:#E74C3C;">*</span></label>
+                        <input type="tel" id="bookPhoneSky" placeholder="+965 2208 5666" required />
+                        <div class="error-message" id="bookPhoneErrorSky">الرجاء إدخال رقم صحيح</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bookEmailSky">البريد <span style="color:#E74C3C;">*</span></label>
+                    <input type="email" id="bookEmailSky" placeholder="بريدك الإلكتروني" required />
+                    <div class="error-message" id="bookEmailErrorSky">الرجاء إدخال بريد صحيح</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bookDoctorSky">اختر الطبيب <span style="color:#E74C3C;">*</span></label>
+                    <select id="bookDoctorSky" required>
+                        <option value="">-- اختر الطبيب --</option>
+                        <option value="د. محمد السيد">د. محمد السيد - أعصاب ⭐</option>
+                        <option value="د. سارة ميرزا">د. سارة ميرزا - شرح دقيق</option>
+                        <option value="د. أحمد">د. أحمد - تقويم شفاف</option>
+                        <option value="د. نورا">د. نورا - زراعة وتجميل</option>
+                    </select>
+                    <div class="error-message" id="bookDoctorErrorSky">الرجاء اختيار الطبيب</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bookServiceSky">الخدمة <span style="color:#E74C3C;">*</span></label>
+                    <select id="bookServiceSky" required>
+                        <option value="">-- اختر الخدمة --</option>
+                        <option value="تقويم شفاف">تقويم شفاف ⭐</option>
+                        <option value="تقويم الأسنان">تقويم الأسنان</option>
+                        <option value="زراعة الأسنان">زراعة الأسنان</option>
+                        <option value="تبييض الأسنان">تبييض الأسنان</option>
+                        <option value="حشوات تجميلية">حشوات تجميلية</option>
+                        <option value="علاج الجذور (أعصاب)">علاج الجذور (أعصاب)</option>
+                        <option value="جراحة الفم">جراحة الفم</option>
+                        <option value="تنظيف الأسنان">تنظيف الأسنان</option>
+                    </select>
+                    <div class="error-message" id="bookServiceErrorSky">الرجاء اختيار الخدمة</div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bookDateSky">التاريخ <span style="color:#E74C3C;">*</span></label>
+                        <input type="date" id="bookDateSky" required />
+                        <div class="error-message" id="bookDateErrorSky">الرجاء اختيار تاريخ صحيح</div>
+                        <div class="form-hint"><i class="fas fa-info-circle"></i> اختر تاريخاً من يوم غد فما بعده</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookTimeSky">الوقت <span style="color:#E74C3C;">*</span></label>
+                        <select id="bookTimeSky" required>
+                            <option value="">-- اختر الوقت --</option>
+                            <option value="08:30">8:30 صباحاً</option>
+                            <option value="09:00">9:00 صباحاً</option>
+                            <option value="09:30">9:30 صباحاً</option>
+                            <option value="10:00">10:00 صباحاً</option>
+                            <option value="10:30">10:30 صباحاً</option>
+                            <option value="11:00">11:00 صباحاً</option>
+                            <option value="11:30">11:30 صباحاً</option>
+                            <option value="12:00">12:00 مساءً</option>
+                            <option value="12:30">12:30 مساءً</option>
+                            <option value="13:00">1:00 مساءً</option>
+                            <option value="13:30">1:30 مساءً</option>
+                            <option value="14:00">2:00 مساءً</option>
+                            <option value="14:30">2:30 مساءً</option>
+                            <option value="15:00">3:00 مساءً</option>
+                            <option value="15:30">3:30 مساءً</option>
+                            <option value="16:00">4:00 مساءً</option>
+                            <option value="16:30">4:30 مساءً</option>
+                            <option value="17:00">5:00 مساءً</option>
+                            <option value="17:30">5:30 مساءً</option>
+                            <option value="18:00">6:00 مساءً</option>
+                            <option value="18:30">6:30 مساءً</option>
+                            <option value="19:00">7:00 مساءً</option>
+                            <option value="19:30">7:30 مساءً</option>
+                            <option value="20:00">8:00 مساءً</option>
+                            <option value="20:30">8:30 مساءً</option>
+                            <option value="21:00">9:00 مساءً</option>
+                            <option value="21:30">9:30 مساءً</option>
+                        </select>
+                        <div class="error-message" id="bookTimeErrorSky">الرجاء اختيار الوقت</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bookNotesSky">ملاحظات</label>
+                    <textarea id="bookNotesSky" rows="3" placeholder="أي ملاحظات أو متطلبات خاصة..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-sky-primary" style="width:100%; padding:14px; font-size:1rem;">
+                    <i class="fas fa-check-circle"></i> احجز في السماء
+                </button>
+            </form>
+
+            <div style="margin-top:30px;">
+                <h4 style="color:var(--text-primary); font-family:var(--font-arabic); font-size:1rem;">
+                    <i class="fas fa-list" style="color:var(--sky-blue);"></i> حجوزاتي
+                </h4>
+                <div id="bookingListSky" style="margin-top:10px;">
+                    <p style="color:var(--text-secondary); font-size:0.9rem;">لا توجد حجوزات بعد</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+☁️ FOOTER
+============================================================ -->
+<footer class="sky-footer">
+    <!-- ☁️ غيوم في التذييل -->
+    <div class="clouds-container">
+        <div class="cloud cloud-1" style="animation-duration:45s; animation-delay:-8s; opacity:0.15;"></div>
+        <div class="cloud cloud-2" style="animation-duration:55s; animation-delay:-15s; opacity:0.1;"></div>
+    </div>
+
+    <div class="container">
+        <div class="sky-footer-grid">
+            <div>
+                <div style="font-size:1.2rem; font-weight:900; color:var(--white); margin-bottom:10px; display:flex; align-items:center; gap:8px;">
+                    <svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="#0B3B60" stroke="#F1C40F" stroke-width="2"/>
+                        <path d="M22 45 C22 38 28 32 36 32 C38 26 44 22 52 22 C60 22 66 26 68 32 C76 32 82 38 82 45 C82 52 76 58 68 58 L36 58 C28 58 22 52 22 45 Z" fill="white" opacity="0.85"/>
+                        <path d="M44 58 L50 58 L50 68 L56 68 L56 58 L62 58 L62 70 L56 70 L56 80 L50 80 L50 70 L44 70 Z" fill="#F1C40F" opacity="0.9"/>
+                    </svg>
+                    <span class="gold-text">سكاي</span> <span style="color:white;">للأسنان</span>
+                </div>
+                <p style="color:rgba(255,255,255,0.5); line-height:1.8; font-size:0.85rem;">
+                    ☁️ حيث تلتقي السماء بالابتسامة
+                </p>
+                <div style="margin-top:12px; display:flex; gap:10px;">
+                    <a href="https://wa.me/96522085666" target="_blank" style="background:rgba(255,255,255,0.04); width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--white); transition:all 0.3s ease;">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" style="background:rgba(255,255,255,0.04); width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--white); transition:all 0.3s ease;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" style="background:rgba(255,255,255,0.04); width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--white); transition:all 0.3s ease;">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4>روابط سريعة</h4>
+                <a href="#" class="page-link" data-page="home">الرئيسية</a>
+                <a href="#" class="page-link" data-page="about">عن العيادة</a>
+                <a href="#" class="page-link" data-page="doctors">الأطباء</a>
+                <a href="#" class="page-link" data-page="services">الخدمات</a>
+                <a href="#" class="page-link" data-page="reviews">التقييمات</a>
+                <a href="#" class="page-link" data-page="faq">أسئلة</a>
+                <a href="#" class="page-link" data-page="contact">اتصل بنا</a>
+            </div>
+
+            <div>
+                <h4>معلومات الاتصال</h4>
+                <p style="font-size:0.85rem; color:rgba(255,255,255,0.5);"><i class="fas fa-map-pin" style="color:var(--warm-gold); margin-left:8px;"></i> شارع سالم المبارك</p>
+                <p style="font-size:0.85rem; color:rgba(255,255,255,0.5);"><i class="fas fa-phone" style="color:var(--warm-gold); margin-left:8px;"></i> +965 2208 5666</p>
+                <p style="font-size:0.85rem; color:rgba(255,255,255,0.5);"><i class="fas fa-clock" style="color:var(--warm-gold); margin-left:8px;"></i> يومياً 8:30ص - 10م</p>
+                <p style="font-size:0.85rem; color:rgba(255,255,255,0.5); margin-top:4px;">
+                    <span style="color:var(--warm-gold);">🟢 مفتوح الآن</span>
+                </p>
+            </div>
+
+            <div>
+                <h4>الخريطة</h4>
+                <div style="border-radius:12px; overflow:hidden; max-width:200px; border:1px solid rgba(241,196,15,0.06);">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.806418823724!2d47.9814!3d29.3759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDIyJzMzLjIiTiA0N8KwNTgnNTMuMSJF!5e0!3m2!1sar!2skw!4v1700000000000"
+                    style="width:100%; height:100px; border:none;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            &copy; 2026 <strong class="gold-text">سكاي للأسنان</strong>
+            <span style="display:block; font-size:0.75rem; margin-top:4px; color:rgba(255,255,255,0.15);">
+                ☁️ حيث تلتقي السماء بالابتسامة
+                <span style="display:block; margin-top:2px; font-size:0.65rem;">
+                    نموذج تجريبي — للتواصل: <span class="gold-text" dir="ltr">+966 50 765 2943</span>
+                </span>
+            </span>
+        </p>
+    </div>
+</div>
+</footer>
+
+<!-- ============================================================
+☁️ أزرار عائمة
+============================================================ -->
+<a href="https://wa.me/966507652943" target="_blank" class="whatsapp-float-sky" aria-label="واتساب للتواصل">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<button class="scroll-top-sky" id="scrollTopBtnSky" aria-label="العودة للأعلى">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ============================================================
+☁️ JAVASCRIPT
+============================================================ -->
+<script>
+    /* ================================================================
+       ☁️ فلسفة الكود - "Sky Code"
+       ================================================================
+       
+       هذا الكود بسيط ونظيف، مستوحى من صفاء السماء.
+       كل وظيفة تؤدي مهمة واحدة بدقة.
+       
+       "حيث تلتقي السماء بالابتسامة"
+       ================================================================ */
+
+    // ============================================================
+    // 🛡️ حماية
+    // ============================================================
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        showSkyToast('❌ عرض الكود غير متاح في هذا الموقع', 'error');
+        return false;
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i')) ||
+            (e.ctrlKey && (e.key === 'U' || e.key === 'u')) || (e.ctrlKey && (e.key === 'S' || e.key === 's'))) {
+            e.preventDefault();
+            showSkyToast('❌ عرض الكود غير متاح في هذا الموقع', 'error');
+            return false;
+        }
+        if (e.ctrlKey && (e.key === 'a' || e.key === 'A')) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    document.addEventListener('dragstart', function(e) { e.preventDefault(); return false; });
+    document.addEventListener('selectstart', function(e) { e.preventDefault(); return false; });
+
+    // ============================================================
+    // ☁️ TOAST
+    // ============================================================
+    function showSkyToast(message, type = 'success') {
+        const toast = document.getElementById('skyToast');
+        const text = document.getElementById('toastTextSky');
+        if (!toast || !text) return;
+        text.textContent = message;
+        toast.className = 'sky-toast ' + type;
+        toast.classList.add('show');
+        clearTimeout(toast._timeout);
+        toast._timeout = setTimeout(() => { toast.classList.remove('show'); }, 4000);
+    }
+
+    // ============================================================
+    // ☁️ إغلاق البانر
+    // ============================================================
+    function closeSkyBanner() {
+        const banner = document.getElementById('skyBanner');
+        if (banner) {
+            banner.style.display = 'none';
+            const navbar = document.getElementById('navbarSky');
+            if (navbar) navbar.style.top = '0';
+        }
+    }
+
+    // ============================================================
+    // ☁️ نظام حالة العيادة
+    // ============================================================
+    class SkyClinicStatus {
+        constructor() {
+            this.openingTime = 8.5; // 8:30 صباحاً
+            this.closingTime = 22; // 10:00 مساءً
+            this.update();
+        }
+
+        update() {
+            const now = new Date();
+            const hours = now.getHours();
+            const minutes = now.getMinutes();
+            const currentTime = hours + minutes / 60;
+
+            if (currentTime >= this.openingTime && currentTime < this.closingTime) {
+                this.status = 'مفتوح الآن';
+                this.icon = '🟢';
+                this.message = 'نرحب بكم في سكاي للأسنان';
+                this.cssClass = 'open';
+                this.isOpen = true;
+                this.statusText = 'مفتوح الآن 🟢 · يغلق 10:00 مساءً';
+            } else {
+                this.status = 'مغلق';
+                this.icon = '🔴';
+                this.message = `يفتح الساعة 8:30 صباحاً`;
+                this.cssClass = 'closed';
+                this.isOpen = false;
+                this.statusText = 'مغلق 🔴 · يفتح 8:30 صباحاً';
+            }
+        }
+
+        render() {
+            return `
+                        <span class="clinic-status-sky ${this.cssClass}">
+                            <span class="dot"></span>
+                            ${this.icon} ${this.status}
+                            <span class="status-hours">· ${this.statusText}</span>
+                        </span>
+                    `;
+        }
+    }
+
+    // ============================================================
+    // 📊 البيانات
+    // ============================================================
+    const skyData = {
+        phone: '+965 2208 5666',
+        address: 'شارع سالم المبارك، السالمية، الكويت',
+        rating: 4.7,
+        reviewsCount: 200,
+        doctors: [{
+            name: 'د. محمد السيد',
+            specialty: 'جراحة الأعصاب السنية وعلاج الجذور',
+            bio: 'أفضل دكتور أعصاب، يشرح كل شيء، يأخذ وقته مع المريض. يتميز بالاحترافية العالية والاهتمام.',
+            quote: '"أفضل دكتور أعصاب وكل الستاف أيضا مميز" - 1',
+            rating: '4.9 ★',
+            image: 'https://ui-avatars.com/api/?name=د.+محمد+السيد&background=0B3B60&color=fff&size=150'
+        }, {
+            name: 'د. سارة ميرزا',
+            specialty: 'طب الأسنان التجميلي والعلاجي',
+            bio: 'تسعد المرضى بشرح حالتهم بوضوح. تتميز بالتواصل الممتاز والأسلوب اللطيف والمهني.',
+            quote: '"أسعدتني بشرح حالتي" - Beba Bo',
+            rating: '4.8 ★',
+            image: 'https://ui-avatars.com/api/?name=د.+سارة+ميرزا&background=3498DB&color=fff&size=150'
+        }, {
+            name: 'د. أحمد',
+            specialty: 'تقويم الأسنان',
+            bio: 'متخصص في تقويم الأسنان الشفاف والتقليدي. يستخدم أحدث التقنيات للحصول على نتائج مثالية.',
+            rating: '4.7 ★',
+            image: 'https://ui-avatars.com/api/?name=د.+أحمد&background=0B3B60&color=fff&size=150'
+        }, {
+            name: 'د. نورا',
+            specialty: 'زراعة وتجميل الأسنان',
+            bio: 'متخصصة في زراعة الأسنان والابتسامة المثالية. تقدم حلولاً مبتكرة بتقنيات حديثة.',
+            rating: '4.7 ★',
+            image: 'https://ui-avatars.com/api/?name=د.+نورا&background=3498DB&color=fff&size=150'
+        }],
+        reviews: [{
+            name: '1',
+            role: '3 مراجعات، صورة واحدة',
+            avatar: 'https://ui-avatars.com/api/?name=1&background=0B3B60&color=fff&size=50',
+            stars: 5,
+            text: 'أفضل عيادة أسنان بالكويت عن تجربة شخصية مريت على عيادات وايد قبل إلين الحمد لله كان ختام الجولات إلى هذه العيادة المميزة من أفضل الدكاترة الي مروا علي و ياخذون وقتهم يشرحون كل شيء وأخص بالشكر للدكتور محمد السيد أفضل دكتور أعصاب وكل الستاف أيضا مميز',
+            date: 'قبل 4 أشهر'
+        }, {
+            name: 'Aldawoud',
+            role: 'مراجعة واحدة',
+            avatar: 'https://ui-avatars.com/api/?name=Aldawoud&background=3498DB&color=fff&size=50',
+            stars: 5,
+            text: '🔸تعاملت مع أربعة أطباء اختصاصيين في المركز منذ بداية فتح الملف لديهم على مدى سنوات، كل طبيب منهم أروع من الآخر من حسن الأخلاق والتعامل الراقي والاحترام والابتسامة الجميلة. أي اجراء طبي يتم حسب الحاجة وليس للانتفاع، إن لم تكن بحاجة لأي علاج لا يضغطون عليك',
+            date: 'قبل 6 أشهر'
+        }, {
+            name: 'Beba Bo',
+            role: '4 مراجعات',
+            avatar: 'https://ui-avatars.com/api/?name=Beba+Bo&background=0B3B60&color=fff&size=50',
+            stars: 5,
+            text: 'د ساره ميرزا أسعدتني بشرح حالتي واتمنى الحصول على الابتسامه اللي اتفقنا عليها',
+            date: 'قبل أسبوعين'
+        }, {
+            name: 'Ahmed Al-Fahd',
+            role: 'مرشد محلي، 15 مراجعة',
+            avatar: 'https://ui-avatars.com/api/?name=Ahmed+Al-Fahd&background=3498DB&color=fff&size=50',
+            stars: 5,
+            text: 'أفضل عيادة أسنان في السالمية. د. محمد السيد ود. سارة ميرزا من أفضل الأطباء. أنصح بها بشدة.',
+            date: 'قبل 3 أشهر'
+        }, {
+            name: 'Nora Al-Sabah',
+            role: 'مرشد محلي، 10 مراجعات',
+            avatar: 'https://ui-avatars.com/api/?name=Nora+Al-Sabah&background=0B3B60&color=fff&size=50',
+            stars: 4,
+            text: 'عيادة ممتازة، أطباء محترفين، وأسعار مناسبة. د. محمد السيد شرح لي كل شيء بالتفصيل.',
+            date: 'قبل شهرين'
+        }, {
+            name: 'Fahad Al-Otaibi',
+            role: 'مرشد محلي، 20 مراجعة',
+            avatar: 'https://ui-avatars.com/api/?name=Fahad+Al-Otaibi&background=3498DB&color=fff&size=50',
+            stars: 5,
+            text: 'تجربة رائعة جداً. تعامل راقي وأطباء متميزون. سكاي للأسنان هي الخيار الأمثل في السالمية.',
+            date: 'قبل شهر'
+        }],
+        services: [
+            { name: 'تقويم شفاف', desc: 'الخدمة الأكثر طلباً بكل دقة وراحة', icon: 'fa-braces', featured: true },
+            { name: 'تقويم الأسنان', desc: 'تقويم تقليدي بدقة احترافية', icon: 'fa-tooth', featured: false },
+            { name: 'زراعة الأسنان', desc: 'غرسات دقيقة بأحدث التقنيات', icon: 'fa-crown', featured: false },
+            { name: 'تبييض الأسنان', desc: 'ابتسامة مشرقة بنتائج مذهلة', icon: 'fa-star', featured: false },
+            { name: 'حشوات تجميلية', desc: 'حشوات بلون الأسنان بدقة عالية', icon: 'fa-fill-drip', featured: false },
+            { name: 'علاج الجذور (أعصاب)', desc: 'علاج دقيق للأعصاب بأحدث التقنيات', icon: 'fa-microscope',
+            featured: false },
+            { name: 'جراحة الفم', desc: 'جراحات دقيقة وآمنة بأسلوب احترافي', icon: 'fa-scalpel', featured: false },
+            { name: 'تنظيف الأسنان', desc: 'تنظيف احترافي لإزالة الجير والبلاك', icon: 'fa-toothbrush', featured: false }
+        ]
+    };
+
+    let currentPageSky = 'home';
+
+    // ============================================================
+    // ☁️ دوال مساعدة
+    // ============================================================
+    function $(s) { return document.querySelector(s); }
+
+    function $$(s) { return document.querySelectorAll(s); }
+
+    // ============================================================
+    // ☁️ تحديث حالة العيادة
+    // ============================================================
+    function updateSkyStatus() {
+        const status = new SkyClinicStatus();
+        const container = document.getElementById('statusBadgeSky');
+        const text = document.getElementById('statusTextSky');
+        if (container && text) {
+            container.className = `clinic-status-sky ${status.cssClass}`;
+            text.textContent = status.icon + ' ' + status.status;
+        }
+        return status;
+    }
+
+    // ============================================================
+    // ☁️ عرض الأطباء
+    // ============================================================
+    function renderSkyDoctors() {
+        const container = document.getElementById('doctorsGridSky');
+        if (!container) return;
+        container.innerHTML = skyData.doctors.map((d, index) => `
+                    <div class="sky-doctor-card animate-on-scroll scale-up delay-${(index % 4) + 1}">
+                        <img src="${d.image}" alt="${d.name}" class="doctor-img" loading="lazy" />
+                        <div class="doctor-info">
+                            <h3 class="doctor-name">${d.name}</h3>
+                            <div class="doctor-specialty">${d.specialty}</div>
+                            <p class="doctor-bio">${d.bio}</p>
+                            <div class="doctor-rating">
+                                <span class="stars">${'★'.repeat(Math.floor(d.rating))}${d.rating % 1 >= 0.5 ? '★' : '☆'}</span>
+                                <span style="color:var(--text-secondary);font-size:0.8rem;">${d.rating}</span>
+                            </div>
+                            ${d.quote ? `<div class="doctor-quote"><i class="fas fa-quote-right"></i> ${d.quote}</div>` : ''}
+                            <a href="#" class="btn-sky-primary" style="padding:8px 20px; font-size:0.8rem;" data-page="booking">
+                                احجز مع الدكتور <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                `).join('');
+        setTimeout(() => {
+            container.querySelectorAll('.animate-on-scroll').forEach(el => el.classList.add('visible'));
+        }, 150);
+    }
+
+    // ============================================================
+    // ☁️ عرض التقييمات
+    // ============================================================
+    function renderSkyReviews(containerId, limit = 3) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        const reviewsToShow = skyData.reviews.slice(0, limit);
+        container.innerHTML = reviewsToShow.map((r, index) => `
+                    <div class="sky-review-card animate-on-scroll fade-up delay-${(index % 3) + 1}">
+                        <div class="reviewer">
+                            <img src="${r.avatar}" alt="${r.name}" loading="lazy" />
+                            <div>
+                                <div class="name">${r.name}</div>
+                                <div class="role">${r.role}</div>
+                            </div>
+                        </div>
+                        <div class="stars">${'★'.repeat(r.stars)}${'☆'.repeat(5 - r.stars)}</div>
+                        <p class="text">"${r.text}"</p>
+                        <div class="date"><i class="far fa-calendar-alt"></i> ${r.date}</div>
+                    </div>
+                `).join('');
+        setTimeout(() => {
+            container.querySelectorAll('.animate-on-scroll').forEach(el => el.classList.add('visible'));
+        }, 150);
+    }
+
+    // ============================================================
+    // ☁️ عرض الخدمات
+    // ============================================================
+    function renderSkyServices() {
+        const container = document.getElementById('servicesGridSky');
+        if (!container) return;
+        container.innerHTML = skyData.services.map((s, index) => `
+                    <div class="sky-service-card animate-on-scroll scale-up delay-${(index % 4) + 1}">
+                        ${s.featured ? '<span class="featured-tag">⭐ الأكثر طلباً</span>' : ''}
+                        <div class="icon-wrap"><i class="fas ${s.icon}"></i></div>
+                        <h3>${s.name}</h3>
+                        <p>${s.desc}</p>
+                        <a href="#" class="btn-sky-outline" style="padding:6px 16px; font-size:0.8rem; display:inline-block; margin-top:10px;" data-page="booking">
+                            احجز الخدمة <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                `).join('');
+        setTimeout(() => {
+            container.querySelectorAll('.animate-on-scroll').forEach(el => el.classList.add('visible'));
+        }, 150);
+    }
+
+    // ============================================================
+    // ☁️ التنقل
+    // ============================================================
+    function navigateSky(page) {
+        $$('.page').forEach(p => p.classList.remove('active'));
+        const target = document.getElementById(`page-${page}`);
+        if (target) {
+            target.classList.add('active');
+            setTimeout(() => {
+                target.querySelectorAll('.animate-on-scroll').forEach(el => el.classList.add('visible'));
+            }, 150);
+        }
+        $$('.nav-links a[data-page]').forEach(link => {
+            link.classList.toggle('active', link.dataset.page === page);
+        });
+        document.getElementById('navLinksSky').classList.remove('open');
+        document.getElementById('hamburgerSky').classList.remove('active');
+        currentPageSky = page;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        localStorage.setItem('currentPageSky', page);
+        if (page === 'home') renderSkyReviews('reviewsGridSky', 3);
+        if (page === 'reviews') renderSkyReviews('allReviewsGridSky', 6);
+        if (page === 'doctors') renderSkyDoctors();
+        if (page === 'services') renderSkyServices();
+    }
+
+    // ============================================================
+    // ☁️ عدادات
+    // ============================================================
+    function animateSkyCounters() {
+        document.querySelectorAll('.stat-item .number[data-count]').forEach(counter => {
+            const target = parseFloat(counter.dataset.count);
+            const duration = 1500;
+            const steps = duration / 20;
+            let current = 0;
+            const increment = target / steps;
+            const update = () => {
+                current += increment;
+                if (current >= target) { counter.textContent = target; return; }
+                counter.textContent = Math.round(current * 10) / 10;
+                requestAnimationFrame(update);
+            };
+            update();
+        });
+    }
+
+    // ============================================================
+    // ☁️ حجز الموعد
+    // ============================================================
+    function setupSkyBooking() {
+        const form = document.getElementById('bookingFormSky');
+        if (!form) return;
+
+        const nameInput = document.getElementById('bookNameSky');
+        const phoneInput = document.getElementById('bookPhoneSky');
+        const emailInput = document.getElementById('bookEmailSky');
+        const doctorInput = document.getElementById('bookDoctorSky');
+        const serviceInput = document.getElementById('bookServiceSky');
+        const dateInput = document.getElementById('bookDateSky');
+        const timeInput = document.getElementById('bookTimeSky');
+
+        const nameError = document.getElementById('bookNameErrorSky');
+        const phoneError = document.getElementById('bookPhoneErrorSky');
+        const emailError = document.getElementById('bookEmailErrorSky');
+        const doctorError = document.getElementById('bookDoctorErrorSky');
+        const serviceError = document.getElementById('bookServiceErrorSky');
+        const dateError = document.getElementById('bookDateErrorSky');
+        const timeError = document.getElementById('bookTimeErrorSky');
+
+        function clearError(input, errorEl) {
+            input.classList.remove('error', 'validation-success');
+            errorEl.classList.remove('show');
+        }
+
+        function setError(input, errorEl) {
+            input.classList.add('error');
+            input.classList.remove('validation-success');
+            errorEl.classList.add('show');
+        }
+
+        function setSuccess(input) {
+            input.classList.remove('error');
+            input.classList.add('validation-success');
+        }
+
+        function validateName() {
+            const value = nameInput.value.trim();
+            if (value.length >= 3) { setSuccess(nameInput);
+                nameError.classList.remove('show'); return true; } else { setError(nameInput, nameError); return false; }
+        }
+
+        function validatePhone() {
+            const value = phoneInput.value.trim();
+            if (value.length >= 8) { setSuccess(phoneInput);
+                phoneError.classList.remove('show'); return true; } else { setError(phoneInput, phoneError); return false; }
+        }
+
+        function validateEmail() {
+            const value = emailInput.value.trim();
+            const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (regex.test(value)) { setSuccess(emailInput);
+                emailError.classList.remove('show'); return true; } else { setError(emailInput, emailError); return false; }
+        }
+
+        function validateDoctor() {
+            if (doctorInput.value) { setSuccess(doctorInput);
+                doctorError.classList.remove('show'); return true; } else { setError(doctorInput, doctorError); return false; }
+        }
+
+        function validateService() {
+            if (serviceInput.value) { setSuccess(serviceInput);
+                serviceError.classList.remove('show'); return true; } else { setError(serviceInput, serviceError); return false; }
+        }
+
+        function validateDate() {
+            const value = dateInput.value;
+            if (value) {
+                const selected = new Date(value);
+                const tomorrow = new Date();
+                tomorrow.setDate(tomorrow.getDate() + 1);
+                tomorrow.setHours(0, 0, 0, 0);
+                if (selected >= tomorrow) { setSuccess(dateInput);
+                    dateError.classList.remove('show'); return true; } else { setError(dateInput, dateError); return false; }
+            } else { setError(dateInput, dateError); return false; }
+        }
+
+        function validateTime() {
+            if (timeInput.value) { setSuccess(timeInput);
+                timeError.classList.remove('show'); return true; } else { setError(timeInput, timeError); return false; }
+        }
+
+        nameInput.addEventListener('blur', validateName);
+        phoneInput.addEventListener('blur', validatePhone);
+        emailInput.addEventListener('blur', validateEmail);
+        doctorInput.addEventListener('change', validateDoctor);
+        serviceInput.addEventListener('change', validateService);
+        dateInput.addEventListener('change', validateDate);
+        timeInput.addEventListener('change', validateTime);
+
+        const today = new Date();
+        const tomorrow = new Date(today);
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        dateInput.min = tomorrow.toISOString().split('T')[0];
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const isNameValid = validateName();
+            const isPhoneValid = validatePhone();
+            const isEmailValid = validateEmail();
+            const isDoctorValid = validateDoctor();
+            const isServiceValid = validateService();
+            const isDateValid = validateDate();
+            const isTimeValid = validateTime();
+
+            if (isNameValid && isPhoneValid && isEmailValid && isDoctorValid && isServiceValid && isDateValid &&
+                isTimeValid) {
+                const booking = {
+                    name: nameInput.value.trim(),
+                    phone: phoneInput.value.trim(),
+                    email: emailInput.value.trim(),
+                    doctor: doctorInput.value,
+                    service: serviceInput.value,
+                    date: dateInput.value,
+                    time: timeInput.value,
+                    notes: document.getElementById('bookNotesSky').value.trim()
+                };
+                let bookings = JSON.parse(localStorage.getItem('skyBookings') || '[]');
+                bookings.push(booking);
+                localStorage.setItem('skyBookings', JSON.stringify(bookings));
+                showSkyToast('✅ تم حجز موعدك في سكاي للأسنان! سنتصل بك قريباً.', 'success');
+                form.reset();
+                [nameInput, phoneInput, emailInput, doctorInput, serviceInput, dateInput, timeInput].forEach(input => {
+                    input.classList.remove('validation-success');
+                });
+                renderSkyBookings();
+            } else {
+                showSkyToast('❌ الرجاء تصحيح الأخطاء في النموذج', 'error');
+                const firstError = form.querySelector('.error');
+                if (firstError) firstError.focus();
+            }
+        });
+        renderSkyBookings();
+    }
+
+    function renderSkyBookings() {
+        const container = document.getElementById('bookingListSky');
+        if (!container) return;
+        const bookings = JSON.parse(localStorage.getItem('skyBookings') || '[]');
+        if (bookings.length === 0) {
+            container.innerHTML = '<p style="color:var(--text-secondary); font-size:0.9rem;">لا توجد حجوزات بعد</p>';
+            return;
+        }
+        container.innerHTML = bookings.map((b, index) => `
+                    <div style="background:var(--bg-secondary); padding:10px 14px; border-radius:12px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px; border:1px solid rgba(52,152,219,0.04);">
+                        <div style="font-size:0.9rem;">
+                            <strong style="font-family:var(--font-arabic);">${b.name}</strong> - ${b.service}
+                            <span style="font-size:0.8rem; color:var(--text-secondary);"> | ${b.doctor} | ${b.date} - ${b.time}</span>
+                        </div>
+                        <button onclick="deleteSkyBooking(${index})" style="background:#E74C3C; color:white; border:none; padding:2px 10px; border-radius:6px; cursor:pointer; font-size:0.75rem;">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                `).join('');
+    }
+
+    window.deleteSkyBooking = function(index) {
+        if (confirm('هل أنت متأكد من حذف هذا الحجز؟')) {
+            let bookings = JSON.parse(localStorage.getItem('skyBookings') || '[]');
+            bookings.splice(index, 1);
+            localStorage.setItem('skyBookings', JSON.stringify(bookings));
+            renderSkyBookings();
+            showSkyToast('🗑️ تم حذف الحجز بنجاح', 'info');
+        }
+    };
+
+    // ============================================================
+    // ☁️ مراجعات
+    // ============================================================
+    function setupSkyReviewForm() {
+        const form = document.getElementById('reviewFormSky');
+        if (!form) return;
+        const stars = document.querySelectorAll('#starRatingSky span');
+        const starsInput = document.getElementById('reviewStarsSky');
+        let selectedStars = 5;
+        stars.forEach(star => {
+            star.addEventListener('click', function() {
+                selectedStars = parseInt(this.dataset.value);
+                starsInput.value = selectedStars;
+                stars.forEach(s => {
+                    s.textContent = parseInt(s.dataset.value) <= selectedStars ? '★' : '☆';
+                    s.style.color = parseInt(s.dataset.value) <= selectedStars ? '#F1C40F' : '#CCC';
+                });
+            });
+            if (parseInt(star.dataset.value) <= 5) {
+                star.textContent = '★';
+                star.style.color = '#F1C40F';
+            }
+        });
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('reviewNameSky').value.trim();
+            const email = document.getElementById('reviewEmailSky').value.trim();
+            const text = document.getElementById('reviewTextSky').value.trim();
+            if (!name || !email || !text) {
+                showSkyToast('❌ الرجاء ملء جميع الحقول', 'error');
+                return;
+            }
+            const newReview = {
+                name: name,
+                avatar: `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=0B3B60&color=fff&size=50`,
+                stars: selectedStars,
+                text: text,
+                date: 'الآن',
+                role: 'مريض في العيادة'
+            };
+            skyData.reviews.unshift(newReview);
+            renderSkyReviews('reviewsGridSky', 3);
+            renderSkyReviews('allReviewsGridSky', 6);
+            showSkyToast('✅ تم إضافة تقييمك في سكاي! شكراً لك.', 'success');
+            form.reset();
+            stars.forEach(s => {
+                s.textContent = parseInt(s.dataset.value) <= 5 ? '★' : '☆';
+                s.style.color = '#F1C40F';
+            });
+            selectedStars = 5;
+            starsInput.value = 5;
+        });
+    }
+
+    // ============================================================
+    // ☁️ نموذج الاتصال
+    // ============================================================
+    function setupSkyContactForm() {
+        const form = document.getElementById('contactFormSky');
+        if (!form) return;
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            showSkyToast('✅ تم إرسال رسالتك! سنرد عليك قريباً.', 'success');
+            form.reset();
+        });
+    }
+
+    // ============================================================
+    // ☁️ FAQ
+    // ============================================================
+    function toggleFaqSky(button) {
+        const answer = button.nextElementSibling;
+        const isOpen = answer.classList.contains('open');
+        document.querySelectorAll('.sky-faq-answer.open').forEach(el => {
+            if (el !== answer) {
+                el.classList.remove('open');
+                el.previousElementSibling.classList.remove('active');
+            }
+        });
+        if (isOpen) {
+            answer.classList.remove('open');
+            button.classList.remove('active');
+        } else {
+            answer.classList.add('open');
+            button.classList.add('active');
+        }
+    }
+
+    // ============================================================
+    // ☁️ Dark Mode
+    // ============================================================
+    function setupSkyDarkMode() {
+        const toggle = document.getElementById('darkToggleSky');
+        const icon = toggle.querySelector('i');
+        if (localStorage.getItem('darkModeSky') === 'true') {
+            document.body.classList.add('dark-mode');
+            icon.className = 'fas fa-sun';
+        }
+        toggle.addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+            localStorage.setItem('darkModeSky', isDark);
+        });
+    }
+
+    // ============================================================
+    // ☁️ إعدادات التنقل
+    // ============================================================
+    function setupSkyNavigation() {
+        document.querySelectorAll('[data-page]').forEach(el => {
+            el.addEventListener('click', function(e) {
+                e.preventDefault();
+                const page = this.dataset.page;
+                if (page) navigateSky(page);
+            });
+        });
+        document.querySelectorAll('.footer .page-link').forEach(el => {
+            el.addEventListener('click', function(e) {
+                e.preventDefault();
+                const page = this.dataset.page;
+                if (page) navigateSky(page);
+            });
+        });
+        const savedPage = localStorage.getItem('currentPageSky');
+        if (savedPage && savedPage !== 'home') navigateSky(savedPage);
+    }
+
+    function setupSkyHamburger() {
+        const hamburger = document.getElementById('hamburgerSky');
+        const navLinks = document.getElementById('navLinksSky');
+        hamburger.addEventListener('click', function() {
+            this.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.classList.remove('open');
+                hamburger.classList.remove('active');
+            });
+        });
+    }
+
+    function setupSkyScrollTop() {
+        const btn = document.getElementById('scrollTopBtnSky');
+        window.addEventListener('scroll', function() {
+            btn.classList.toggle('visible', window.scrollY > 400);
+        });
+        btn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
+    function setupSkyNavbarScroll() {
+        const navbar = document.getElementById('navbarSky');
+        window.addEventListener('scroll', function() {
+            navbar.classList.toggle('scrolled', window.scrollY > 80);
+        });
+    }
+
+    function setupSkyScrollAnimations() {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+    }
+
+    // ============================================================
+    // ☁️ التهيئة
+    // ============================================================
+    function initSkyMasterpiece() {
+        // حالة العيادة
+        updateSkyStatus();
+
+        // عرض البيانات
+        renderSkyReviews('reviewsGridSky', 3);
+        renderSkyReviews('allReviewsGridSky', 6);
+        renderSkyServices();
+        renderSkyDoctors();
+
+        // إعدادات
+        setupSkyBooking();
+        setupSkyReviewForm();
+        setupSkyContactForm();
+        setupSkyNavigation();
+        setupSkyHamburger();
+        setupSkyScrollTop();
+        setupSkyDarkMode();
+        setupSkyNavbarScroll();
+        setupSkyScrollAnimations();
+
+        // عدادات
+        setTimeout(animateSkyCounters, 600);
+
+        // تحديث حالة العيادة كل دقيقة
+        setInterval(updateSkyStatus, 60000);
+
+        console.log('☁️✨ سكاي للأسنان - تحفة رقمية');
+        console.log('⭐ التقييم: 4.7 ★ | 200 مراجعة');
+        console.log('📞 للتواصل: +966 507 652 943');
+        console.log('☁️ "حيث تلتقي السماء بالابتسامة"');
+    }
+
+    document.addEventListener('DOMContentLoaded', initSkyMasterpiece);
+
+    // منع Print Screen
+    document.addEventListener('keyup', function(e) {
+        if (e.key === 'PrintScreen') {
+            e.preventDefault();
+            showSkyToast('❌ لقطة الشاشة غير متاحة', 'error');
+            return false;
+        }
+    });
+</script>
+
+</body>
+</html>
